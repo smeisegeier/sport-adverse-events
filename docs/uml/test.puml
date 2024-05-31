@@ -1,13 +1,28 @@
 @startmindmap test
 
 + adverse-events
-++ art
-++ ursache
-++ setting
-++ betroffene
-+++ alter
-+++ therapiephase
-++ konsequenzen
-+++ medikamente
+++ [01] Bewertung
++++ [01.01] CTCAE
++++ [01.02] Neu aufgetreten
++++ [01.03] Sportassoziiert
+++ [02] Basics
+++ [03] Konsequenzen
++++ [03.01] Schmerzen
+++++ [03.01.01] aufgetreten
+++++ [03.01.02] wie lange
+++++ [03.01.03] wie stark
++++ [03.02] Medikamente
+++++ [03.02.01] eingenommen
+++++ [03.02.02] wie lange
+++++ [03.02.03] Dosis
++++ [03.03] KKH Aufenthalt
+++++ [03.03.01] aufgetreten
+++++ [03.03.02] wie lange
++++ [03.04] Verzögerung Threapieprotokell
++++ [03.07] ...
+++ [04] Maßnahmen
+++ [05] Rahmenbedingungen
+++ [06] Freitext
+++ [07] Meldung
 
 @endmindmap
