@@ -2,7 +2,7 @@
 
 ## Struktur
 
-![alt text](docs/uml/img/test.png)
+![alt text](docs/uml/img/test.svg)
 
 ## tags
 

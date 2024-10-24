@@ -2,27 +2,93 @@
 
 + adverse-events
 ++ [01] Bewertung
-+++ [01.01] CTCAE
-+++ [01.02] Neu aufgetreten
-+++ [01.03] Sportassoziiert
++++ [01.01] CTCAE Bewertung
++++ [01.02a] Neu aufgetreten?
++++ [01.02b] Bereits vorher da?
++++ [01.03] Sportaossoziiert?
 ++ [02] Basics
-++ [03] Konsequenzen
++++ [02.01] Datum
++++ [02.02] Art AE
++++ [02.03] Auslöser des AE
++++ [02.04.] Körperteil
+++ [03] Folgen
 +++ [03.01] Schmerzen
-++++ [03.01.01] aufgetreten
-++++ [03.01.02] wie lange
-++++ [03.01.03] wie stark
-+++ [03.02] Medikamente
-++++ [03.02.01] eingenommen
-++++ [03.02.02] wie lange
-++++ [03.02.03] Dosis
-+++ [03.03] KKH Aufenthalt
-++++ [03.03.01] aufgetreten
-++++ [03.03.02] wie lange
-+++ [03.04] Verzögerung Threapieprotokell
-+++ [03.07] ...
-++ [04] Maßnahmen
-++ [05] Rahmenbedingungen
+++++ [03.01.01a] Intensität: Schmerzskala
+++++ [03.01.01b] Intensität: Einschätzung
+++++ [03.01.02] Dauer: Schmerzen
+++++ [03.01.03] Beschreibung Einschätzung
++++ [03.02] Krankenhausaufenthalt
+++++ [03.02.01] Intensität: Krankenhausaufenthalt
++++++ Wann nach dem AE wurde entschieden, dass es zu einem KK-Aufenthalt kommt oder dieser verlängert wird?
+++++ [03.02.02] Dauer: Krankenhausaufenthalt
++++++ Wie lange kam es zu einem (zusätzlichen) KK-Aufenthalt?
++++ [03.03] Medizinische Weiterbehandlung
+++++ [03.03.01] Intensität: Medizinische Weiterbehandlung
++++++ Was wurde gemacht?
+++++ [03.03.02] Dauer: Medizinische Weiterbehandlung
++++++ wie lange nach dem AE fand die Untersuchung statt?
++++ [03.04] Verzögerung Therapieprotokoll
+++++ [03.04.01] Intensität: Verzögerung Therapieprotokoll
+++++ [03.04.02] Dauer: Verzögerung Therapieprotokoll
++++ [03.05] Lebensnotwendige Intervention
+++++ [03.05.01] Intensität: Lebensnotwendige Intervention
++++++ Welche lebensnotwendige Intervention wurde durchgeführt?
+++++ [03.05.02] Dauer: Lebensnotwendige Intervention
++++++ Wie oft wurde die lebensnotwendigen Intervention wiederholt?
++++ [03.06] erhöhter Pflegebedarf
+++++ [03.06.01] Intensität: erhöhter Pflegebedarf
++++++ In welchen Bereichen hat sich der erhöhte Pflegebedarf abgezeichnet?
+++++ [03.06.02] Dauer: erhöhter Pflegebedarf
++++++ Wie lange dauerte der erhöhte Pflegebedarf an?
++++ [03.07] Medikamenteneinnahme
+++++ [03.07.01] Intensität: Medikamenteneinnahme
++++++ Was für Medikamente musste eingenommen werden?
+++++ [03.07.02] Dauer: Medikamenteneinnahme
++++++ Wie lange mussten diese Medikamente eingenommen werden?
++++ [03.08] Angst und Unsicherheit
+++++ [03.08.01] Intensität: Angst und Unsicherheit
++++++ Bei wem traten Angst und Unsicherheit auf?
+++++ [03.08.02a] Dauer: Angst und Unsicherheit
++++++ Wie lange traten Angst und Unsicherheit auf?
+++++[#Red] [03.08.02b] Dauer: Angst und Unsicherheit
++++++ Führten Angst und Unsicherheit zur Ablehnung weiterer Bewegungstherapeutischer Angebote?
++++ [03.09] Strukturelle Anpassung
+++++ [03.09.01] Intensität: Strukturelle Anpassung
+++++ [03.09.02] Dauer: Strukturelle Anpassung
++++ [03.10] Prüfung Sit
+++++ [03.10.01] Intensität: Prüfung Sit
++++++ Wer hat geprüft?
+++++ [03.10.02] Dauer: Prüfung Sit
++++++ Wurde ein OK zum Weitermachen gegeben?
++++ [03.11] PECH-Regel
+++++ [03.11.01] Intensität: PECH-Regel
++++++ Welche Komponenten der PECH-Regel wurden angewendet?
+++++ [03.11.02] Dauer: PECH-Regel
++++++ Wie lange wurde die PECH-Regel angewendet?
++++ [03.12] Observaieren
+++++ [03.12.01] Intensität: Monitoring
++++++ Wie wurde observiert?
+++++ [03.12.02] Dauer: Monitoring
++++++ Wie lange wurde observiert?
++++ [03.13] Stop
+++++ [03.13.01] Intensität: Stop
++++++ Pause vs. Abbruch
+++++ [03.13.02] Dauer: Stop
++++ [03.14] Anpassung
+++++ [03.14.01] Intensität: Anpassung
++++++ Wie wurde die Bewegungseinheit angepasst?
+++++ [03.14.02] Dauer: Anpassung
++++++ Wie lange wurde die Anpassung vorgenommen?
++++ [03.15] Trost
+++++ [03.15.01] Intensität: Trost
++++++ War die gesamte Heransgehensweise bei diesem AE rein pädagogischer Natur?
+++++ [03.15.02] Dauer: Trost
++++++ Wie lange wurde getröstet?
++++ [03.16] Tod
++++[#Yellow] [03.17] Weitere Konsequenzen
 ++ [06] Freitext
-++ [07] Meldung
++++ [06.01] Beschreibung der Entstehung
++++ [06.02] Beschreibung des AE
++++ [06.03] Beschreibung Auslöser AE
 
 @endmindmap
