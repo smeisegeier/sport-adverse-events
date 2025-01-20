@@ -1,0 +1,15 @@
+[project]
+name = "sport-adverse-events"
+version = "0.2.0"
+description = "analysis of adverse events in sport"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pip",
+    "pandas",
+    "numpy<2",
+    "pandas-plots",
+    "connection-helper",
+    "pygwalker",
+    "kaleido<0.2.1"
+]

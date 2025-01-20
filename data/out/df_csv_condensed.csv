@@ -1,0 +1,186 @@
+﻿Participant ID;[02.01]_Datum;[01.01]_CTCAE;[01.03]_Sport;[05.09]_Trainingszustand;[02.03]_Auslöser;[02.04]_Körperteil
+3;2022-10-01;2;No;Durchschnittlich;Physische Belastung|Med. Therapie;Bauch
+4;2022-10-01;1;Yes;Gut;Koordinationsprobleme;Rücken|Gesäß
+5;2022-11-01;2;No;Mäßig;Med. Therapie;-
+6;2022-11-01;1;No;Durchschnittlich;Physische Belastung|Med. Therapie;-
+7;2022-11-01;3;Yes;Mäßig;Stolpern, Ausrutschen, Fallen;untere Extremitäten
+8;2022-12-01;3;No;Mäßig;Physische Belastung;Brust|Rücken|obere Extremitäten
+9;2023-01-01;2;No;Mäßig;Physische Belastung|Med. Therapie;Bauch
+10;2023-01-01;2;No;Mäßig;Stolpern, Ausrutschen, Fallen;Rücken
+11;2023-01-01;2;Yes;Durchschnittlich;Physische Belastung|Med. Therapie;-
+12;2023-01-01;2;Yes;Durchschnittlich;Stolpern, Ausrutschen, Fallen;Kopf
+13;2023-01-01;1;Yes;Gut;Psychische Belastung;-
+14;2023-01-01;1;Yes;Gut;Physische Belastung;untere Extremitäten
+15;2023-02-01;1;Yes;Mäßig;Koordinationsprobleme;untere Extremitäten
+16;2023-03-01;1;Yes;Mäßig;Koordinationsprobleme;untere Extremitäten
+17;2023-04-01;1;No;Mäßig;Physische Belastung;obere Extremitäten
+18;2023-04-01;2;Yes;Durchschnittlich;Med. Therapie;Rücken
+19;2023-04-01;1;Yes;Mäßig;Physische Belastung|Med. Therapie;-
+20;2023-05-01;1;No;Weiß nicht;Physische Belastung|Med. Therapie;Bauch|Steiß
+21;2023-05-01;1;Yes;Durchschnittlich;Physische Belastung;Brust
+22;2023-05-01;1;Yes;Mäßig;Physische Belastung|Med. Therapie;Brust
+23;2023-05-01;1;Yes;Mäßig;Physische Belastung;-
+24;2023-05-01;1;Yes;Gut;Stolpern, Ausrutschen, Fallen;untere Extremitäten
+25;2023-05-01;1;Yes;Weiß nicht;Stolpern, Ausrutschen, Fallen;Rücken
+26;2023-05-01;1;Yes;Weiß nicht;Med. Therapie;Bauch
+27;2023-05-01;1;Yes;Mäßig;Physische Belastung|Med. Therapie;Bauch
+28;2023-06-01;1;Yes;Gut;Koordinationsprobleme;untere Extremitäten
+29;2023-06-01;1;Yes;Durchschnittlich;Med. Therapie;-
+30;2023-06-01;2;Yes;Mäßig;Physische Belastung;untere Extremitäten
+31;2023-06-01;1;Yes;Mäßig;Psychische Belastung;-
+32;2023-06-01;2;Yes;Mäßig;Physische Belastung;Kopf
+33;2023-06-01;1;Yes;Durchschnittlich;Physische Belastung;-
+36;2023-07-01;1;Yes;Gut;Physische Belastung|Med. Therapie;-
+39;2023-07-01;1;Yes;Gut;Koordinationsprobleme;obere Extremitäten
+40;2023-08-20;1;Yes;Mäßig;Physische Belastung|Med. Therapie;-
+41;2023-08-01;1;No;Mäßig;Med. Therapie;obere Extremitäten
+42;2023-08-01;1;Yes;Mäßig;Stolpern, Ausrutschen, Fallen;obere Extremitäten
+43;2023-10-01;1;Yes;Mäßig;Physische Belastung;Rücken
+44;2023-10-01;2;Yes;Mäßig;Physische Belastung;-
+45;2023-10-01;1;No;Mäßig;Physische Belastung|Psychische Belastung|Med. Therapie;Bauch
+46;2023-12-01;1;Yes;Mäßig;Stolpern, Ausrutschen, Fallen;Gesäß
+47;2023-12-01;1;No;Mäßig;Med. Therapie;-
+48;2023-12-01;2;Yes;Mäßig;Koordinationsprobleme;Kopf
+49;2024-01-01;1;No;Mäßig;Physische Belastung|Med. Therapie;Kopf|Brust
+50;2024-01-01;1;Yes;Durchschnittlich;Physische Belastung|Med. Therapie;Bauch
+51;2024-02-01;1;Yes;Durchschnittlich;Physische Belastung|Med. Therapie;-
+52;2024-02-01;1;Yes;Durchschnittlich;Med. Therapie;-
+53;2024-02-01;3;Yes;Mäßig;Koordinationsprobleme;untere Extremitäten
+54;2024-02-01;1;Yes;Mäßig;Stolpern, Ausrutschen, Fallen;Kopf
+55;2024-02-01;2;Yes;Mäßig;Stolpern, Ausrutschen, Fallen|Koordinationsprobleme;Kopf
+56;2024-02-05;2;Yes;Gut;Stolpern, Ausrutschen, Fallen|Koordinationsprobleme;untere Extremitäten
+57;2024-02-01;1;Yes;Mäßig;Physische Belastung|Med. Therapie;-
+59;2024-03-01;1;Yes;Mäßig;Physische Belastung;untere Extremitäten
+60;2024-04-01;2;Yes;Gut;Stolpern, Ausrutschen, Fallen|Koordinationsprobleme;obere Extremitäten
+61;2024-05-01;1;Yes;Mäßig;Weitere;Kopf
+63;2024-01-06;1;Yes;Gut;Stolpern, Ausrutschen, Fallen;Brust
+64;2024-01-10;1;No;Mäßig;Physische Belastung|Med. Therapie;Bauch
+65;2024-01-15;1;Yes;Durchschnittlich;Physische Belastung;Kopf|Brust
+66;2024-02-22;1;Yes;Mäßig;Physische Belastung|Med. Therapie;Bauch
+67;2024-01-29;1;No;Durchschnittlich;Med. Therapie;Kopf
+68;2024-02-05;1;Yes;Mäßig;Physische Belastung|Weitere;Gesäß
+69;2024-02-06;2;No;Mäßig;Physische Belastung|Psychische Belastung|Koordinationsprobleme;untere Extremitäten
+70;2024-02-07;2;Yes;Durchschnittlich;Stolpern, Ausrutschen, Fallen;Kopf|Gesäß
+71;2024-02-13;1;No;Anmerkung;Physische Belastung|Med. Therapie;Bauch
+72;2024-02-14;1;No;Anmerkung;Physische Belastung|Med. Therapie;Bauch
+73;2024-03-01;2;Yes;Durchschnittlich;Koordinationsprobleme;Kopf
+74;2024-03-11;1;No;Durchschnittlich;Psychische Belastung|Med. Therapie;-
+75;2024-03-12;1;Yes;Mäßig;Physische Belastung|Med. Therapie;untere Extremitäten
+76;2024-03-14;1;No;Mäßig;Physische Belastung|Med. Therapie;untere Extremitäten
+77;2024-03-18;1;Yes;Mäßig;Physische Belastung|Med. Therapie;Kopf
+78;2024-04-04;2;No;Mäßig;Physische Belastung|Med. Therapie;Bauch
+79;2024-05-03;1;Yes;Gut;Psychische Belastung;untere Extremitäten
+80;2024-04-24;1;Yes;Mäßig;Stolpern, Ausrutschen, Fallen|Koordinationsprobleme;Gesäß
+81;2024-04-26;1;Yes;Mäßig;Koordinationsprobleme;Gesäß
+82;2024-05-15;1;Yes;Mäßig;Koordinationsprobleme;Kopf|obere Extremitäten
+83;2024-05-21;1;Yes;Durchschnittlich;Physische Belastung;Rücken
+84;2024-06-06;1;Yes;Mäßig;Physische Belastung;Bauch
+85;2024-06-10;1;No;Mäßig;Physische Belastung|Psychische Belastung;Bauch
+86;2024-06-11;1;Yes;Mäßig;Stolpern, Ausrutschen, Fallen;untere Extremitäten
+87;2024-07-12;1;Yes;Mäßig;Stolpern, Ausrutschen, Fallen;Gesäß
+88;2024-07-20;;Yes;Mäßig;Physische Belastung;-
+89;2024-07-25;;Yes;Mäßig;Med. Therapie;-
+90;2024-08-29;1;Yes;Mäßig;Stolpern, Ausrutschen, Fallen;obere Extremitäten
+91;2024-07-05;;Yes;Gut;Physische Belastung|Med. Therapie;-
+92;2024-07-20;;Yes;Gut;Physische Belastung|Med. Therapie;Bauch|Gesäß
+93;2024-08-02;;Yes;Mäßig;Physische Belastung|Med. Therapie;Ganzkörper
+94;2024-08-20;;Yes;Durchschnittlich;Physische Belastung|Psychische Belastung;Ganzkörper
+95;2024-09-05;;Yes;Gut;Physische Belastung|Med. Therapie;-
+96;2024-10-10;;Yes;Gut;Weitere;Kopf
+97;2024-10-16;;Yes;Mäßig;Physische Belastung;Bauch
+98;2022-04-20;1;Yes;Mäßig;Stolpern, Ausrutschen, Fallen|Psychische Belastung;Ganzkörper
+99;2022-05-20;1;No;Mäßig;Physische Belastung|Med. Therapie;-
+100;2022-06-24;1;Yes;Mäßig;Physische Belastung|Med. Therapie;Bauch
+101;2022-06-22;1;No;Mäßig;Med. Therapie;Kopf
+102;2022-07-04;2;Yes;Mäßig;Stoßen, Rempeln;Intimbereich
+103;2022-07-04;1;Yes;Mäßig;Physische Belastung|Med. Therapie;-
+104;2022-07-19;2;Yes;Mäßig;Physische Belastung|Med. Therapie;Bauch
+105;2022-01-24;1;Yes;Mäßig;Physische Belastung|Koordinationsprobleme;untere Extremitäten
+106;2022-02-01;1;Yes;Mäßig;Physische Belastung|Med. Therapie;-
+107;;1;Yes;Durchschnittlich;Physische Belastung|Med. Therapie;-
+108;2022-02-17;1;Yes;Durchschnittlich;Physische Belastung;-
+109;2022-04-06;2;Yes;Mäßig;Stolpern, Ausrutschen, Fallen;untere Extremitäten
+110;2022-05-18;1;Yes;;Physische Belastung|Med. Therapie;-
+111;2022-06-28;1;Yes;Durchschnittlich;Stolpern, Ausrutschen, Fallen;untere Extremitäten
+112;2022-07-01;1;Yes;Durchschnittlich;Physische Belastung|Med. Therapie;-
+113;2022-07-04;1;Yes;Durchschnittlich;Stolpern, Ausrutschen, Fallen;untere Extremitäten
+114;2022-07-14;1;Yes;Mäßig;Physische Belastung|Med. Therapie;-
+115;2022-07-19;1;Yes;Mäßig;Physische Belastung|Med. Therapie;-
+116;2022-08-02;1;Yes;Durchschnittlich;Physische Belastung|Med. Therapie;-
+117;2022-01-18;2;Yes;Durchschnittlich;Physische Belastung|Med. Therapie;Kopf
+118;2022-05-22;1;Yes;Mäßig;Physische Belastung;Ganzkörper
+119;2022-01-18;2;Yes;Durchschnittlich;Physische Belastung;Ganzkörper
+120;2022-03-31;1;Yes;Durchschnittlich;Physische Belastung|Med. Therapie;-
+121;2022-08-08;1;Yes;Durchschnittlich;Physische Belastung|Med. Therapie;-
+122;2021-04-29;1;Yes;;Physische Belastung;untere Extremitäten
+123;2021-05-06;1;Yes;;Physische Belastung;untere Extremitäten
+124;2021-08-26;1;Yes;;Stolpern, Ausrutschen, Fallen;Rücken
+125;2021-08-04;2;Yes;;Physische Belastung;untere Extremitäten
+126;2021-05-06;1;Yes;;Physische Belastung;untere Extremitäten
+127;2021-06-09;1;Yes;;Stolpern, Ausrutschen, Fallen;untere Extremitäten
+128;2021-08-23;1;Yes;;Physische Belastung;untere Extremitäten
+129;2021-10-25;1;Yes;;Physische Belastung;Rücken
+130;2022-02-24;1;Yes;;Stolpern, Ausrutschen, Fallen;untere Extremitäten
+131;2021-03-17;1;Yes;;Physische Belastung|Umgebungsbedingungen;-
+132;2021-03-18;1;Yes;;Physische Belastung|Umgebungsbedingungen;-
+133;2021-06-04;1;Yes;;Stolpern, Ausrutschen, Fallen;untere Extremitäten
+134;2021-06-05;1;Yes;Mäßig;Physische Belastung;Ganzkörper
+135;2021-07-05;1;Yes;;Physische Belastung|Umgebungsbedingungen;-
+136;2021-10-13;2;Yes;Mäßig;Stolpern, Ausrutschen, Fallen;obere Extremitäten|Gesäß
+137;2021-11-03;1;Yes;;Stolpern, Ausrutschen, Fallen|Physische Belastung;untere Extremitäten
+138;2021-12-09;1;Yes;;Physische Belastung|Med. Therapie;-
+139;2021-12-15;2;Yes;Mäßig;Physische Belastung;Rücken|Bauch
+140;2021-12-03;1;Yes;;Physische Belastung|Med. Therapie;-
+141;2021-01-11;1;Yes;;Physische Belastung;untere Extremitäten
+142;2021-01-12;2;Yes;;Stolpern, Ausrutschen, Fallen;obere Extremitäten
+143;2021-02-19;1;Yes;;Stolpern, Ausrutschen, Fallen;untere Extremitäten
+144;2021-03-01;1;No;Mäßig;Med. Therapie;Kopf
+145;2021-03-08;1;Yes;;Physische Belastung|Med. Therapie;-
+146;2021-04-08;1;Yes;;Stolpern, Ausrutschen, Fallen;Brust
+147;2021-06-05;1;Yes;;Physische Belastung|Med. Therapie;Bauch
+148;2021-07-07;1;Yes;;Stolpern, Ausrutschen, Fallen;untere Extremitäten
+149;2021-09-20;1;Yes;;Koordinationsprobleme;untere Extremitäten
+150;2021-09-25;1;;;Physische Belastung|Med. Therapie;-
+151;2021-10-01;1;Yes;;Physische Belastung|Med. Therapie;-
+152;2021-10-20;1;Yes;;Physische Belastung|Med. Therapie;-
+153;2021-10-06;1;Yes;;Physische Belastung|Med. Therapie;-
+154;2021-11-05;1;Yes;;Physische Belastung|Med. Therapie;-
+155;2021-11-04;2;Yes;;Stolpern, Ausrutschen, Fallen;Kopf
+156;2021-12-13;2;Yes;;Stolpern, Ausrutschen, Fallen;Brust
+157;2021-09-30;2;Yes;;Physische Belastung;untere Extremitäten
+158;2021-07-05;1;Yes;;Physische Belastung|Med. Therapie;-
+159;2021-08-23;2;Yes;;Physische Belastung|Med. Therapie;untere Extremitäten
+160;2021-08-23;1;Yes;;Stolpern, Ausrutschen, Fallen;Kopf
+161;2021-11-03;1;Yes;;Physische Belastung|Med. Therapie;Kopf
+162;;2;Yes;;Stolpern, Ausrutschen, Fallen;obere Extremitäten
+163;2021-10-07;2;Yes;;Stolpern, Ausrutschen, Fallen;obere Extremitäten
+164;2021-10-04;2;Yes;;Stolpern, Ausrutschen, Fallen;untere Extremitäten
+165;2021-09-12;2;Yes;;Stolpern, Ausrutschen, Fallen;untere Extremitäten
+166;2021-03-17;2;Yes;;Stolpern, Ausrutschen, Fallen;untere Extremitäten
+167;2021-06-05;2;Yes;;Stolpern, Ausrutschen, Fallen;untere Extremitäten
+168;2021-01-18;1;Yes;;Physische Belastung|Med. Therapie;-
+169;2021-02-01;1;Yes;;Physische Belastung|Med. Therapie;-
+170;2021-02-01;1;Yes;;Physische Belastung|Med. Therapie;-
+171;2021-02-22;1;Yes;;Physische Belastung|Med. Therapie;-
+172;2021-03-01;1;Yes;;Physische Belastung|Med. Therapie;-
+173;2021-03-11;1;Yes;;Physische Belastung|Med. Therapie;-
+174;2021-03-15;1;Yes;;Physische Belastung|Med. Therapie;Kopf
+175;2021-03-25;1;Yes;;Physische Belastung;untere Extremitäten
+176;2021-03-31;2;Yes;;Physische Belastung|Med. Therapie;Kopf
+177;2021-05-07;1;Yes;Mäßig;Physische Belastung|Med. Therapie;-
+178;2021-05-27;1;Yes;;Physische Belastung|Med. Therapie;-
+179;2021-06-21;1;No;;Physische Belastung|Med. Therapie;-
+180;2021-07-15;1;Yes;;Physische Belastung|Med. Therapie;-
+181;2021-09-07;1;Yes;;Physische Belastung;untere Extremitäten
+182;2021-09-27;1;Yes;;Psychische Belastung;-
+183;2021-11-04;2;Yes;;Stolpern, Ausrutschen, Fallen;Kopf
+184;2021-11-13;2;Yes;;Physische Belastung|Med. Therapie;Bauch
+185;2021-11-13;1;Yes;;Physische Belastung;-
+186;2024-08-04;;Yes;Durchschnittlich;Stolpern, Ausrutschen, Fallen|Umgebungsbedingungen;untere Extremitäten
+187;2024-10-01;;No;Durchschnittlich;Umgebungsbedingungen|Stoßen, Rempeln;Kopf
+188;2024-08-09;;Yes;Durchschnittlich;Physische Belastung;untere Extremitäten
+189;2024-09-12;;No;Gut;Med. Therapie;-
+190;2024-10-07;;Yes;Mäßig;Physische Belastung;untere Extremitäten
+191;2024-12-12;;Yes;;Stolpern, Ausrutschen, Fallen;Kopf|obere Extremitäten
+192;2025-01-10;;Yes;Mäßig;Med. Therapie;Kopf
+193;2025-01-10;;Yes;Durchschnittlich;Umgebungsbedingungen;obere Extremitäten
