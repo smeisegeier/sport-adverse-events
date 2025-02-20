@@ -11,5 +11,6 @@ dependencies = [
     "pandas-plots",
     "connection-helper",
     "pygwalker",
-    "kaleido<0.2.1"
+    "kaleido<0.2.1",
+    "streamlit>=1.42.1",
 ]
