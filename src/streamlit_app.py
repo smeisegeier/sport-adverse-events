@@ -31,7 +31,7 @@ df_csv_condensed = (df_csv_condensed
 
 
 # Render PyGWalker widget
-pyg_app = pyg.walk(df_csv_condensed).to_html()
+pyg_app = pyg.walk(df_csv_condensed, kernel_computation=True,).to_html()
 
 # Embed the PyGWalker app in Streamlit
 # st.components.v1.html(pyg_app)

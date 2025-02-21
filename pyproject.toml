@@ -1,9 +1,9 @@
 [project]
 name = "sport-adverse-events"
-version = "0.2.0"
+version = "0.3.0"
 description = "analysis of adverse events in sport"
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = "==3.10.*"
 dependencies = [
     "pip",
     "pandas",
@@ -12,5 +12,5 @@ dependencies = [
     "connection-helper",
     "pygwalker",
     "kaleido<0.2.1",
-    "streamlit>=1.42.1",
+    "streamlit",
 ]
