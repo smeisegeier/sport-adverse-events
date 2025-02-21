@@ -3,12 +3,12 @@ name = "sport-adverse-events"
 version = "0.3.0"
 description = "analysis of adverse events in sport"
 readme = "README.md"
-requires-python = "==3.10.*"
+requires-python = "==3.12.*"
 dependencies = [
     "pip",
     "pandas",
     "numpy<2",
-    "pandas-plots",
+    "pandas-plots>=0.12.14",
     "connection-helper",
     "pygwalker",
     "kaleido<0.2.1",
