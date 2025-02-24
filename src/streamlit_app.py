@@ -32,7 +32,7 @@ def get_pyg_renderer() -> "StreamlitRenderer":
     )
 
     # * mark columns that should be str instead of float, fuzzy
-    col_int = hlp.get_cols(all_cols=df_csv_condensed.columns, stubs=["[01.01]"])
+    col_int = hlp.find_cols(all_cols=df_csv_condensed.columns, stubs=["[01.01]"])
 
     cols_to_str = hlp.find_cols(all_cols=df_csv_condensed.columns, stubs = ["[03.04.02]", "[07.04]", "[03.01.01]", "[01.01]"])
 
