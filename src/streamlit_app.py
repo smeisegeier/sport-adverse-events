@@ -49,9 +49,9 @@ def get_pyg_renderer() -> "StreamlitRenderer":
     # If you want to use feature of saving chart config, set `spec_io_mode="rw"`
     return StreamlitRenderer(
         dataset=df_csv_condensed,
-        spec="./streamlit_config.json",
+        # spec="./streamlit_config.json",
+        # spec_io_mode="r",
         kernel_computation=True,
-        spec_io_mode="r",
     )
 
 
