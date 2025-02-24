@@ -51,7 +51,7 @@ def get_pyg_renderer() -> "StreamlitRenderer":
         dataset=df_csv_condensed,
         spec="./streamlit_config.json",
         kernel_computation=True,
-        spec_io_mode="rw",
+        spec_io_mode="r",
     )
 
 
