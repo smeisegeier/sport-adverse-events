@@ -77,15 +77,6 @@ Participant ID
 [03.04.01] Folgen - Wie musste das Therapieprotokoll verändert werden? (choice=weiß nicht)
 [03.04.02] Folgen - Wie lange wurde der Zeitplan des Therapieprotokolls verzögert ?
 [03.04] Folgen - Kam es zu einer deutlichen Verzögerung bei der Einhaltung des medizinischen Therapieprotokolls?
-[03.05.01] Folgen - Welche lebensnotwendige Intervention wurde durchgeführt? (choice=Beatmung / Sauerstofftherapie)
-[03.05.01] Folgen - Welche lebensnotwendige Intervention wurde durchgeführt? (choice=Bluttransfusion(en))
-[03.05.01] Folgen - Welche lebensnotwendige Intervention wurde durchgeführt? (choice=Defibrillation)
-[03.05.01] Folgen - Welche lebensnotwendige Intervention wurde durchgeführt? (choice=Herz-Lungen-Wiederbelebung)
-[03.05.01] Folgen - Welche lebensnotwendige Intervention wurde durchgeführt? (choice=Notfallmedikamente (Adrenalin, Nitroglycerin etc.))
-[03.05.01] Folgen - Welche lebensnotwendige Intervention wurde durchgeführt? (choice=Notfalloperationen (bspw. chirurgische Behandlung von Traumata))
-[03.05.01] Folgen - Welche lebensnotwendige Intervention wurde durchgeführt? (choice=Weitere)
-[03.05.01] Folgen - Welche lebensnotwendige Intervention wurde durchgeführt? (choice=weiß nicht)
-[03.05.01] Folgen - Wie oft wurde die lebensnotwendige Intervention wiederholt?
 [03.05] Folgen - Kam es zu lebensnotwendigen Interventionen (Beatmung, Herzdruckmassage etc.)?
 [03.06.01] Folgen - In welchen Bereichen hat sich der erhöhte Pflegebedarf abgezeichnet?  (choice=Ernährung (bspw. Sondenernährung und spezielle Diäten))
 [03.06.01] Folgen - In welchen Bereichen hat sich der erhöhte Pflegebedarf abgezeichnet?  (choice=Körperhygiene (bspw.  Unterstützung beim Waschen, Zähneputzen und Ankleiden))
