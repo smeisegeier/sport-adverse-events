@@ -6,6 +6,18 @@
   - [🕹️ interactive](#toc1_2_)    
   - [descriptive stats](#toc1_3_)    
   - [slides](#toc1_4_)    
+    - [slide 1](#toc1_4_1_)    
+    - [slide 2](#toc1_4_2_)    
+    - [slide 3](#toc1_4_3_)    
+    - [slide 4](#toc1_4_4_)    
+    - [slide 5](#toc1_4_5_)    
+    - [⚠️ slide 6](#toc1_4_6_)    
+    - [slide 7](#toc1_4_7_)    
+    - [slide 8](#toc1_4_8_)    
+    - [slide 9](#toc1_4_9_)    
+    - [slide 10](#toc1_4_10_)    
+    - [bonus - ci](#toc1_4_11_)    
+  - [2025-03-18](#toc1_5_)    
 
 <!-- vscode-jupyter-toc-config
 	numbering=false
@@ -16,7 +28,7 @@
 	/vscode-jupyter-toc-config -->
 <!-- THIS CELL WILL BE REPLACED ON TOC UPDATE. DO NOT WRITE YOUR TEXT IN THIS CELL -->
 
-    🐍 3.12.2 | 📦 pygwalker: 0.4.9.14 | 📦 pandas: 2.2.3 | 📦 numpy: 1.26.4 | 📦 duckdb: 1.2.1 | 📦 pandas-plots: 0.12.17 | 📦 connection_helper: 0.8.15
+    🐍 3.12.3 | 📦 pygwalker: 0.4.9.13 | 📦 pandas: 2.2.2 | 📦 numpy: 1.26.4 | 📦 duckdb: 1.0.0 | 📦 pandas-plots: 0.12.19 | 📦 connection_helper: 0.8.13
 
 
 ## <a id='toc1_1_'></a>[condensed data](#toc0_)
@@ -60,7 +72,7 @@
     4 03.03 Med_Weiterbehandlung_Folge: 3 03.04 Therapieprotokoll_Folge: 1 03.05 Lebensnotwendige_Intenvention_Folge: 
     1 03.06.01 Pflege_Intensität: 4 03.06.02 Pflege_Dauer: 3 03.06 Pflege_Folge: 2 03.07.01 
     Medikamente_Dauer: 3 03.07.02 Medikamente_Intensität: 3 03.07 Medikamente_Folge: 
-    3 03.08.01 Angst_Intensität: 11 03.08.02 Angst_Dauer: 3 03.08 Angst_Folge: 2 03.09.01 
+    3 03.08.01 Angst_Intensität: 10 03.08.02 Angst_Dauer: 3 03.08 Angst_Folge: 2 03.09.01 
     Strukturanpassung_Intensität: 4 03.09.02 Strukturanpassung_Dauer: 2 03.09 Strukturanpassung_Folge: 
     2 03.10.01 Freigabe_OK: 5 03.10.02 Freigabe_Wer: 2 03.10 Freigabe_Folge: 2 03.11.01 
     PECH_Intensität: 7 03.11.02 PECH_Folge: 4 03.11 PECH_Folge: 2 03.12.01 Observierung_Intensität: 
@@ -79,11 +91,11 @@
     03.04 Therapieprotokoll_Folge: 0 03.05 Lebensnotwendige_Intenvention_Folge: 
     2 03.06.01 Pflege_Intensität: 0 03.06.02 Pflege_Dauer: 191 03.06 Pflege_Folge: 
     0 03.07.01 Medikamente_Dauer: 0 03.07.02 Medikamente_Intensität: 190 03.07 Medikamente_Folge: 
-    6 03.08.01 Angst_Intensität: 0 03.08.02 Angst_Dauer: 133 03.08 Angst_Folge: 1 03.09.01 
-    Strukturanpassung_Intensität: 184 03.09.02 Strukturanpassung_Dauer: 184 03.09 
-    Strukturanpassung_Folge: 1 03.10.01 Freigabe_OK: 138 03.10.02 Freigabe_Wer: 138 
-    03.10 Freigabe_Folge: 1 03.11.01 PECH_Intensität: 0 03.11.02 PECH_Folge: 176 03.11 
-    PECH_Folge: 1 03.12.01 Observierung_Intensität: 0 03.12.02 Observierung_Dauer: 
+    6 03.08.01 Angst_Intensität: 133 03.08.02 Angst_Dauer: 133 03.08 Angst_Folge: 1 
+    03.09.01 Strukturanpassung_Intensität: 184 03.09.02 Strukturanpassung_Dauer: 
+    184 03.09 Strukturanpassung_Folge: 1 03.10.01 Freigabe_OK: 138 03.10.02 Freigabe_Wer: 
+    138 03.10 Freigabe_Folge: 1 03.11.01 PECH_Intensität: 0 03.11.02 PECH_Folge: 176 
+    03.11 PECH_Folge: 1 03.12.01 Observierung_Intensität: 0 03.12.02 Observierung_Dauer: 
     189 03.12 Observierung_Folge: 0 03.13.01 Ende_vs_Pause: 20 03.13.02 Pause_Intensität: 
     120 03.13 Stoppung_Folge: 0 03.14.01 Anpassung_Intensität: 150 03.14.02 Anpassung_Dauer: 
     150 03.15.01 Trost_Intensität: 187 03.15.02 Trost_Dauer: 176 03.15 Trost_Folge: 
@@ -123,7 +135,7 @@
     🟠 [03.07.01] Medikamente_Dauer(3|object) ['-', 'Analgetika (Schmerzmittel', 'Analgetika (Schmerzmittel|Antikoagulanzien (blutgerinnungshemmende Mittel',]
     🟠 [03.07.02] Medikamente_Intensität(4|object) ['<NA>', 'länger als 4 Tage', 'max. 3 Tage', 'weiß nicht',]
     🟠 [03.07] Medikamente_Folge(4|object) ['<NA>', 'No', 'Yes', 'weiß nicht',]
-    🟠 [03.08.01] Angst_Intensität(11|object) ['-', 'bei dem Betroffenen selbst', 'bei dem Betroffenen selbst|bei den Eltern des Betroffenen', 
+    🟠 [03.08.01] Angst_Intensität(11|object) ['<NA>', 'bei dem Betroffenen selbst', 'bei dem Betroffenen selbst|bei den Eltern des Betroffenen', 
     'bei dem Betroffenen selbst|bei den Eltern des Betroffenen|im Behandlungsteam', 
     'bei dem Betroffenen selbst|bei der Bewegungsfachkraft',]
     🟠 [03.08.02] Angst_Dauer(4|object) ['<NA>', 'bis zum Ende der Woche', 'bis zum Ende des Monates', 'nur noch am gleichen Tag',]
@@ -395,9 +407,21 @@
     
 
 
+
+    
+![png](2_analyze_files/output_11_33.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_11_34.png)
+    
+
+
 ## <a id='toc1_4_'></a>[slides](#toc0_)
 
-### slide 1
+### <a id='toc1_4_1_'></a>[slide 1](#toc0_)
 
 
     
@@ -411,7 +435,13 @@
     
 
 
-### slide 2
+
+    
+![png](2_analyze_files/output_16_2.png)
+    
+
+
+### <a id='toc1_4_2_'></a>[slide 2](#toc0_)
 
 
     
@@ -425,7 +455,13 @@
     
 
 
-### slide 3
+
+    
+![png](2_analyze_files/output_18_2.png)
+    
+
+
+### <a id='toc1_4_3_'></a>[slide 3](#toc0_)
 
 
     
@@ -439,7 +475,13 @@
     
 
 
-### slide 4
+
+    
+![png](2_analyze_files/output_20_2.png)
+    
+
+
+### <a id='toc1_4_4_'></a>[slide 4](#toc0_)
 
 
     
@@ -453,7 +495,13 @@
     
 
 
-### slide 5
+
+    
+![png](2_analyze_files/output_22_2.png)
+    
+
+
+### <a id='toc1_4_5_'></a>[slide 5](#toc0_)
 
 
     
@@ -467,7 +515,13 @@
     
 
 
-### ⚠️ slide 6
+
+    
+![png](2_analyze_files/output_24_2.png)
+    
+
+
+### <a id='toc1_4_6_'></a>[slide 6](#toc0_)
 
 
     
@@ -481,7 +535,13 @@
     
 
 
-### slide 7
+
+    
+![png](2_analyze_files/output_26_2.png)
+    
+
+
+### <a id='toc1_4_7_'></a>[slide 7](#toc0_)
 
 
     
@@ -495,7 +555,13 @@
     
 
 
-### slide 8
+
+    
+![png](2_analyze_files/output_28_2.png)
+    
+
+
+### <a id='toc1_4_8_'></a>[slide 8](#toc0_)
 
 
     
@@ -509,7 +575,13 @@
     
 
 
-### slide 9
+
+    
+![png](2_analyze_files/output_30_2.png)
+    
+
+
+### <a id='toc1_4_9_'></a>[slide 9](#toc0_)
 
 
     
@@ -523,7 +595,13 @@
     
 
 
-### slide 10
+
+    
+![png](2_analyze_files/output_32_2.png)
+    
+
+
+### <a id='toc1_4_10_'></a>[slide 10](#toc0_)
 
 
     
@@ -537,10 +615,54 @@
     
 
 
-### bonus - ci
+
+    
+![png](2_analyze_files/output_34_2.png)
+    
+
+
+### <a id='toc1_4_11_'></a>[bonus - ci](#toc0_)
 
 
     
 ![png](2_analyze_files/output_36_0.png)
+    
+
+
+## <a id='toc1_5_'></a>[2025-03-18](#toc0_)
+
+
+    
+![png](2_analyze_files/output_38_0.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_39_0.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_40_0.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_41_0.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_42_0.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_43_0.png)
     
 
