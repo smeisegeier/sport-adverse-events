@@ -11,7 +11,7 @@
     - [slide 3](#toc1_4_3_)    
     - [slide 4](#toc1_4_4_)    
     - [slide 5](#toc1_4_5_)    
-    - [⚠️ slide 6](#toc1_4_6_)    
+    - [slide 6](#toc1_4_6_)    
     - [slide 7](#toc1_4_7_)    
     - [slide 8](#toc1_4_8_)    
     - [slide 9](#toc1_4_9_)    
@@ -28,7 +28,7 @@
 	/vscode-jupyter-toc-config -->
 <!-- THIS CELL WILL BE REPLACED ON TOC UPDATE. DO NOT WRITE YOUR TEXT IN THIS CELL -->
 
-    🐍 3.12.3 | 📦 pygwalker: 0.4.9.13 | 📦 pandas: 2.2.2 | 📦 numpy: 1.26.4 | 📦 duckdb: 1.0.0 | 📦 pandas-plots: 0.12.19 | 📦 connection_helper: 0.8.13
+    🐍 3.12.2 | 📦 pygwalker: 0.4.9.14 | 📦 pandas: 2.2.3 | 📦 numpy: 1.26.4 | 📦 duckdb: 1.2.1 | 📦 pandas-plots: 0.12.19 | 📦 connection_helper: 0.8.15
 
 
 ## <a id='toc1_1_'></a>[condensed data](#toc0_)
