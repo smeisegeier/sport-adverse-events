@@ -35,10 +35,10 @@
 - defined columns have been transformed
 
     🔵 *** df: condensed ***
-    🟣 shape: (195, 62) columns: ['Participant ID' '[01.01] CTCAE' '[01.02] Datum_AE'
-     '[01.03] Sportassoziation' '[02.01] Datum_Aufnahme' '[02.02] Art'
-     '[02.03] Auslöser' '[02.04] Körperteil' '[03.01.01] Schmerzen_Intensität'
-     '[03.01.02] Schmerzen_Dauer' '[03.01] Schmerzen_Folge'
+    🟣 shape: (195, 62) columns: ['Participant ID' '[01.01] CTCAE' '[01.02] Datum_AE'  
+     '[01.03] Sportassoziation' '[02.01] Datum_Aufnahme' '[02.02] Art'  
+     '[02.03] Auslöser' '[02.04] Körperteil' '[03.01.01] Schmerzen_Intensität'  
+     '[03.01.02] Schmerzen_Dauer' '[03.01] Schmerzen_Folge'  
      '[03.02.01] Krankenhaus_Intensität' '[03.02.02] Krankenhaus_Dauer'
      '[03.02] Krankenhaus_Folge' '[03.03.01] Med_Weiterbehandlung_Intensität'
      '[03.03.02] Med_Weiterbehandlung_Dauer'
