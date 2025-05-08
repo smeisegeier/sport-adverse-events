@@ -132,6 +132,7 @@ Participant ID
 [03.14.02] Folgen - Wie lange wurde die Anpassung vorgenommen? (choice=ab jetzt für alle bewegungseinheiten mit allen Patient*innen)
 [03.14.02] Folgen - Wie lange wurde die Anpassung vorgenommen? (choice=für die gesamte Therapiephase)
 [03.14.02] Folgen - Wie lange wurde die Anpassung vorgenommen? (choice=nur für diese Einheit)
+[03.14] Folgen - Wurde die Bewegungseinheit inhaltlich verändert und angepasst?
 [03.15.01] Folgen - War die gesamte Handlungsweise bei diesem AE rein pädagogischer Natur? (choice=ja)
 [03.15.01] Folgen - War die gesamte Handlungsweise bei diesem AE rein pädagogischer Natur? (choice=nein)
 [03.15.02] Folgen - Wie lange wurde getröstet?
