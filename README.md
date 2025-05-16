@@ -11,4 +11,4 @@
 
 ## tags
 
-#sport, #pandas, #powerpivot, #redcap, #python
+#sport, #pandas, #redcap, #python
