@@ -18,6 +18,8 @@
     - [slide 10](#toc1_4_10_)    
     - [bonus - ci](#toc1_4_11_)    
   - [2025-03-18](#toc1_5_)    
+  - [chi-square](#toc1_6_)    
+  - [export data](#toc1_7_)    
 
 <!-- vscode-jupyter-toc-config
 	numbering=false
@@ -28,7 +30,7 @@
 	/vscode-jupyter-toc-config -->
 <!-- THIS CELL WILL BE REPLACED ON TOC UPDATE. DO NOT WRITE YOUR TEXT IN THIS CELL -->
 
-    🐍 3.12.2 | 📦 pygwalker: 0.4.9.14 | 📦 pandas: 2.2.3 | 📦 numpy: 1.26.4 | 📦 duckdb: 1.2.1 | 📦 pandas-plots: 0.12.22 | 📦 connection_helper: 0.8.15
+    🐍 3.12.2 | 📦 pygwalker: 0.4.9.15 | 📦 pandas: 2.2.3 | 📦 numpy: 1.26.4 | 📦 duckdb: 1.2.2 | 📦 pandas-plots: 0.12.23 | 📦 connection_helper: 0.9.7
 
 
 ## <a id='toc1_1_'></a>[condensed data](#toc0_)
@@ -593,3 +595,17 @@
 ![png](2_analyze_files/output_43_0.png)
     
 
+
+## <a id='toc1_6_'></a>[chi-square](#toc0_)
+steps:
+- create subset of 2 cat variables each
+- derive exploded dataset
+- transform to 2x2 contingency table
+
+    Chi-square statistic: 125.56034031783209
+    p-value: 0.0022447520183190074
+    degrees of freedom: 84
+    cells < 5: 89 | total cells: 105 | share of cells < 5% (should be <20%): 84.76%
+
+
+## <a id='toc1_7_'></a>[export data](#toc0_)
