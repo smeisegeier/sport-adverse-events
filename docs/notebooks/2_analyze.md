@@ -20,6 +20,7 @@
   - [2025-03-18](#toc1_5_)    
   - [chi-square](#toc1_6_)    
   - [export data](#toc1_7_)    
+  - [2025-05-26 diagrams](#toc1_8_)    
 
 <!-- vscode-jupyter-toc-config
 	numbering=false
@@ -109,7 +110,7 @@
     🟠 [03.16] Death(2|object)   ['No', 'Yes',]  
     🟠 [05.01] Therapy phase(3|object)   ['Acute therapy', 'Aftercare', 'Long-term therapy',]  
     🟠 [05.02] Group size(5|object)   ['<NA>', 'Group 2-5', 'Group 5 to 10', 'Group over 10', 'Individual',]  
-    🟠 [05.03] Age(6|object)   ['10 to 14 years', '15 to 18 years', '6 to 9 years', '<5 years', '<NA>',]  
+    🟠 [05.03] Age(6|object)   ['02 to 05 years', '06 to 09 years', '10 to 14 years', '15 to 18 years', '18+ years',]  
     🟠 [05.04] Online(3|object)   ['<NA>', 'No', 'Yes',]  
     🟠 [05.05] As part of testing(3|object)   ['<NA>', 'No', 'Yes',]  
     🟠 [05.06] Setting(7|object)   ['<NA>', 'At home (via telemedicine)', 'Gym', 'Hospital corridor', 'Outside',]  
@@ -367,12 +368,6 @@
     
 
 
-
-    
-![png](2_analyze_files/output_16_2.png)
-    
-
-
 ### <a id='toc1_4_2_'></a>[slide 2](#toc0_)
 
 
@@ -384,12 +379,6 @@
 
     
 ![png](2_analyze_files/output_18_1.png)
-    
-
-
-
-    
-![png](2_analyze_files/output_18_2.png)
     
 
 
@@ -407,12 +396,6 @@
     
 
 
-
-    
-![png](2_analyze_files/output_20_2.png)
-    
-
-
 ### <a id='toc1_4_4_'></a>[slide 4](#toc0_)
 
 
@@ -424,12 +407,6 @@
 
     
 ![png](2_analyze_files/output_22_1.png)
-    
-
-
-
-    
-![png](2_analyze_files/output_22_2.png)
     
 
 
@@ -447,12 +424,6 @@
     
 
 
-
-    
-![png](2_analyze_files/output_24_2.png)
-    
-
-
 ### <a id='toc1_4_6_'></a>[slide 6](#toc0_)
 
 
@@ -464,12 +435,6 @@
 
     
 ![png](2_analyze_files/output_26_1.png)
-    
-
-
-
-    
-![png](2_analyze_files/output_26_2.png)
     
 
 
@@ -487,12 +452,6 @@
     
 
 
-
-    
-![png](2_analyze_files/output_28_2.png)
-    
-
-
 ### <a id='toc1_4_8_'></a>[slide 8](#toc0_)
 
 
@@ -504,12 +463,6 @@
 
     
 ![png](2_analyze_files/output_30_1.png)
-    
-
-
-
-    
-![png](2_analyze_files/output_30_2.png)
     
 
 
@@ -527,12 +480,6 @@
     
 
 
-
-    
-![png](2_analyze_files/output_32_2.png)
-    
-
-
 ### <a id='toc1_4_10_'></a>[slide 10](#toc0_)
 
 
@@ -544,12 +491,6 @@
 
     
 ![png](2_analyze_files/output_34_1.png)
-    
-
-
-
-    
-![png](2_analyze_files/output_34_2.png)
     
 
 
@@ -609,3 +550,149 @@ steps:
 
 
 ## <a id='toc1_7_'></a>[export data](#toc0_)
+
+## <a id='toc1_8_'></a>[2025-05-26 diagrams](#toc0_)
+
+
+    
+![png](2_analyze_files/output_49_0.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_49_1.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_50_0.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_50_1.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_51_0.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_51_1.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_52_0.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_52_1.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_53_0.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_53_1.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_54_0.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_54_1.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_55_0.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_55_1.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_56_0.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_56_1.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_57_0.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_57_1.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_58_0.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_58_1.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_59_0.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_59_1.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_60_0.png)
+    
+
+
+
+    
+![png](2_analyze_files/output_60_1.png)
+    
+
