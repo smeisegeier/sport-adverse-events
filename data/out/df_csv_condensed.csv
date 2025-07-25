@@ -137,7 +137,7 @@
 1;First occurrence;Yes;Pain;Physical strain|Medical therapy;Abdomen;Ja;No;No;No;No;No;No;<NA>;Nein;Nein;;nan;No;Nein;Nein;Cessation;Yes;-;No;Acute therapy;Individual;nan;No;No;Gym;<NA>;nan;<NA>
 1;First occurrence;Yes;Pain;Fall event;Lower extremities;Ja;No;No;No;No;No;No;For affected individuals;Ja;Nein;Pflege;Ja;Yes;Nein;Nein;Cessation;Yes;-;No;Acute therapy;Individual;nan;No;No;Gym;<NA>;nan;<NA>
 1;First occurrence;Yes;Pain|Soft tissue/injury;Coordination problems;Lower extremities;Ja;No;No;No;No;No;weiß nicht;<NA>;Nein;Nein;;nan;No;Nein;Nein;Break;Yes;-;No;Acute therapy;Individual;nan;No;No;nan;Coordination;nan;<NA>
-1;First occurrence;nan;Nausea/Vomiting;Physical strain|Medical therapy;Internal medicine type;Nein;No;No;No;No;No;No;<NA>;Nein;Nein;;nan;No;Nein;Nein;Cessation;Yes;-;No;Acute therapy;Individual;nan;No;No;nan;<NA>;nan;<NA>
+1;First occurrence;Yes;Nausea/Vomiting;Physical strain|Medical therapy;Internal medicine type;Nein;No;No;No;No;No;No;<NA>;Nein;Nein;;nan;No;Nein;Nein;Cessation;Yes;-;No;Acute therapy;Individual;nan;No;No;nan;<NA>;nan;<NA>
 1;First occurrence;Yes;Circulatory problems;Physical strain|Medical therapy;Internal medicine type;Nein;No;No;No;No;No;No;<NA>;Nein;Nein;;nan;No;Nein;Nein;Break;Yes;-;No;Acute therapy;Individual;nan;No;No;nan;<NA>;nan;<NA>
 1;First occurrence;Yes;Circulatory problems;Physical strain|Medical therapy;Internal medicine type;Nein;No;No;No;No;No;No;<NA>;Nein;Nein;;nan;No;Nein;Nein;Break;Yes;-;No;Acute therapy;Individual;nan;No;No;nan;<NA>;nan;<NA>
 1;First occurrence;Yes;Nausea/Vomiting;Physical strain|Medical therapy;Internal medicine type;Nein;No;No;No;No;No;No;<NA>;Nein;Nein;;nan;No;Nein;Nein;Cessation;Yes;-;No;Acute therapy;Individual;nan;No;No;nan;<NA>;nan;<NA>
