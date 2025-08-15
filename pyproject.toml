@@ -1,21 +1,21 @@
 [project]
 name = "sport-adverse-events"
-version = "0.4.0"
+version = "0.5.0"
 description = "analysis of adverse events in sport"
 readme = "README.md"
-requires-python = "==3.12.*"
+requires-python = ">=3.12"
 dependencies = [
-    "pip",
+    # "pip",
     "pandas",
     "numpy<2",
-    "pandas-plots>=0.12.14",
+    "pandas-plots>=0.15.13",
     "connection-helper",
     "pygwalker",
-    "kaleido<0.2.1",
+    # "kaleido",
     "streamlit",
     "openpyxl>=3.1.5",
     "odfpy>=1.4.1",
-    "duckdb>=1.2.0",
-    "jinja2==3.1.6",
-    "tornado>=6.5",
+    "duckdb>=1.3.0",
+    # "jinja2==3.1.6",
+    # "tornado>=6.5",
 ]

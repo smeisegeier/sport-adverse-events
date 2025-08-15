@@ -14,17 +14,17 @@ Participant ID
 [02.02] Basics - Was war das AE?  (choice=Oberflächliche Verletzungen)
 [02.02] Basics - Was war das AE?  (choice=Psychische Stressreaktion)
 [02.02] Basics - Was war das AE?  (choice=Schmerzen)
+[02.02] Basics - Was war das AE?  (choice=Schmerzhafter Stuhlgang)
 [02.02] Basics - Was war das AE?  (choice=Starke Erschöpfung)
-[02.02] Basics - Was war das AE?  (choice=Stuhlgang)
-[02.02] Basics - Was war das AE?  (choice=Weichteil- / Gewebeverletzung)
+[02.02] Basics - Was war das AE?  (choice=Weichteil-/Gewebeverletzung)
 [02.02] Basics - Was war das AE?  (choice=Weitere)
-[02.02] Basics - Was war das AE?  (choice=Übelkeit/ Erbrechen)
+[02.02] Basics - Was war das AE?  (choice=Übelkeit / Erbrechen)
+[02.03] Basics - Was war der Auslöser des AEs? (choice=Kollision)
 [02.03] Basics - Was war der Auslöser des AEs? (choice=Koordinationsprobleme)
 [02.03] Basics - Was war der Auslöser des AEs? (choice=Med. Therapie)
 [02.03] Basics - Was war der Auslöser des AEs? (choice=Physische Belastung)
 [02.03] Basics - Was war der Auslöser des AEs? (choice=Psychische Belastung)
-[02.03] Basics - Was war der Auslöser des AEs? (choice=Stolpern, Ausrutschen, Fallen)
-[02.03] Basics - Was war der Auslöser des AEs? (choice=Stoßen, Rempeln)
+[02.03] Basics - Was war der Auslöser des AEs? (choice=Sturzereignis)
 [02.03] Basics - Was war der Auslöser des AEs? (choice=Umgebungsbedingungen)
 [02.03] Basics - Was war der Auslöser des AEs? (choice=Weitere)
 [02.04] Basics - Welches Körperteil ist betroffen? (choice=Bauch)
@@ -33,24 +33,25 @@ Participant ID
 [02.04] Basics - Welches Körperteil ist betroffen? (choice=Ganzkörper)
 [02.04] Basics - Welches Körperteil ist betroffen? (choice=Gesäß)
 [02.04] Basics - Welches Körperteil ist betroffen? (choice=Hals)
-[02.04] Basics - Welches Körperteil ist betroffen? (choice=Internistisch)
+[02.04] Basics - Welches Körperteil ist betroffen? (choice=Innere Medizin)
 [02.04] Basics - Welches Körperteil ist betroffen? (choice=Intimbereich)
 [02.04] Basics - Welches Körperteil ist betroffen? (choice=Kopf)
+[02.04] Basics - Welches Körperteil ist betroffen? (choice=Obere Extremitäten)
 [02.04] Basics - Welches Körperteil ist betroffen? (choice=Rücken)
 [02.04] Basics - Welches Körperteil ist betroffen? (choice=Steiß)
-[02.04] Basics - Welches Körperteil ist betroffen? (choice=obere Extremitäten)
-[02.04] Basics - Welches Körperteil ist betroffen? (choice=untere Extremitäten)
+[02.04] Basics - Welches Körperteil ist betroffen? (choice=Untere Extremitäten)
 [03.01.01] Folgen - Schmerzskala
 [03.01.02] Folgen - Wie lange dauerten die Schmerzen an? (choice=Schmerzen am gleichen Tag)
 [03.01.02] Folgen - Wie lange dauerten die Schmerzen an? (choice=Schmerzen bis zum Folgetag)
 [03.01.02] Folgen - Wie lange dauerten die Schmerzen an? (choice=Schmerzen, die mindestens 3 Tage anhielten)
-[03.01.02] Folgen - Wie lange dauerten die Schmerzen an? (choice=weiß nicht)
+[03.01.02] Folgen - Wie lange dauerten die Schmerzen an? (choice=Weiß nicht)
 [03.01] Folgen - Sind Schmerzen aufgetreten?
-[03.02.01] Folgen - Wie zeitnah anch dem AE wurde entschieden einen Krankehausaufenthalt anzustreben oder zu verlängern?
-[03.02.02] Folgen - Wie lange dauerte der (verlängerte) Krankenhausaufenthalt an?
-[03.02] Folgen - Kam es zu einem Krankenhausaufenthalt oder einer Verlängerung eines solchen?
+[03.02.01] Folgen - Wie zeitnah nach dem AE wurde entschieden, einen Krankenhausaufenthalt anzustreben oder zu verlängern?'
+[03.02.02] Folgen - Wie lange dauerte der (verlängerte) Krankenhausaufenthalt?
+[03.02] Folgen - Kam es zu einem Krankenhausaufenthalt oder zu einer Verlängerung dieses Aufenthalts?'
 [03.03.01] - Folgen - Wie sah die medizinische Weiterbehandlung aus? (choice=Desinfektion)
 [03.03.01] - Folgen - Wie sah die medizinische Weiterbehandlung aus? (choice=Invasive Untersuchung)
+[03.03.01] - Folgen - Wie sah die medizinische Weiterbehandlung aus? (choice=Lebensnotwendige Intervention)
 [03.03.01] - Folgen - Wie sah die medizinische Weiterbehandlung aus? (choice=Manuelle Untersuchung)
 [03.03.01] - Folgen - Wie sah die medizinische Weiterbehandlung aus? (choice=Massage)
 [03.03.01] - Folgen - Wie sah die medizinische Weiterbehandlung aus? (choice=Medikamentengabe intravenös)
@@ -59,58 +60,62 @@ Participant ID
 [03.03.01] - Folgen - Wie sah die medizinische Weiterbehandlung aus? (choice=Operation)
 [03.03.01] - Folgen - Wie sah die medizinische Weiterbehandlung aus? (choice=PECH-Regel-Anwendung)
 [03.03.01] - Folgen - Wie sah die medizinische Weiterbehandlung aus? (choice=Pflaster/Verband)
-[03.03.01] - Folgen - Wie sah die medizinische Weiterbehandlung aus? (choice=Salbe)
+[03.03.01] - Folgen - Wie sah die medizinische Weiterbehandlung aus? (choice=Salbenanwendung)
 [03.03.01] - Folgen - Wie sah die medizinische Weiterbehandlung aus? (choice=Warmpack)
 [03.03.01] - Folgen - Wie sah die medizinische Weiterbehandlung aus? (choice=Weiteres)
-[03.03.01] - Folgen - Wie sah die medizinische Weiterbehandlung aus? (choice=lebensnotwendige Intervention)
 [03.03.01] - Folgen - Wie sah die medizinische Weiterbehandlung aus? (choice=weiß nicht)
-[03.03.02] - Folgen - Wann nach dem AE fand die medizinische Weiterbehandlung statt? (choice=Innerhalb der ersten 24 Stunden)
-[03.03.02] - Folgen - Wann nach dem AE fand die medizinische Weiterbehandlung statt? (choice=Innerhalb der ersten Woche)
-[03.03.02] - Folgen - Wann nach dem AE fand die medizinische Weiterbehandlung statt? (choice=nach der ersten Woche)
-[03.03.02] - Folgen - Wann nach dem AE fand die medizinische Weiterbehandlung statt? (choice=weiß nicht)
+[03.03.02] - Folgen - Zu welchem Zeitpunkt nach dem AE erfolgte die medizinische Weiterbehandlung?' (choice=Innerhalb der ersten 24 Stunden)
+[03.03.02] - Folgen - Zu welchem Zeitpunkt nach dem AE erfolgte die medizinische Weiterbehandlung?' (choice=Innerhalb der ersten Woche)
+[03.03.02] - Folgen - Zu welchem Zeitpunkt nach dem AE erfolgte die medizinische Weiterbehandlung?' (choice=Nach der ersten Woche)
+[03.03.02] - Folgen - Zu welchem Zeitpunkt nach dem AE erfolgte die medizinische Weiterbehandlung?' (choice=Weiß nicht)
 [03.03] - Folgen - Kam es zu einer medizinischen Weiterbehandlung?
-[03.04] Folgen - Kam es zu einer deutlichen Verzögerung bei der Einhaltung des medizinischen Therapieprotokolls?
-[03.05] Folgen - Kam es zu lebensnotwendigen Interventionen (Beatmung, Herzdruckmassage etc.)?
-[03.06.01] Folgen - In welchen Bereichen hat sich der erhöhte Pflegebedarf abgezeichnet?  (choice=Ernährung (bspw. Sondenernährung und spezielle Diäten))
-[03.06.01] Folgen - In welchen Bereichen hat sich der erhöhte Pflegebedarf abgezeichnet?  (choice=Körperhygiene (bspw.  Unterstützung beim Waschen, Zähneputzen und Ankleiden))
-[03.06.01] Folgen - In welchen Bereichen hat sich der erhöhte Pflegebedarf abgezeichnet?  (choice=Medizinische Versorgung (bspw. Therapien und Medikamente))
-[03.06.01] Folgen - In welchen Bereichen hat sich der erhöhte Pflegebedarf abgezeichnet?  (choice=Mobilität (bspw. Unterstützung beim An- und Ausziehen und bei der Fortbewegung (Rollstuhl etc.))
-[03.06.01] Folgen - In welchen Bereichen hat sich der erhöhte Pflegebedarf abgezeichnet?  (choice=Psychosoziale Unterstützung (Emotionale Unterstützung und Verhaltensinterventionen))
-[03.06.01] Folgen - In welchen Bereichen hat sich der erhöhte Pflegebedarf abgezeichnet?  (choice=Weitere)
-[03.06.02] Folgen - Über welchen Zeitraum hinweg bestand der erhöhte Pflegebedarf?
-[03.06] Folgen - Kam es zu einem erhöhten Pflegebedarf?
-[03.07.01] Folgen - Was für Medikamente musste eingenommen werden? (choice=Analgetika (Schmerzmittel))
-[03.07.01] Folgen - Was für Medikamente musste eingenommen werden? (choice=Antiallergika (gegen Allergien))
-[03.07.01] Folgen - Was für Medikamente musste eingenommen werden? (choice=Antibiotika (gegen bakterielle Infektionen))
-[03.07.01] Folgen - Was für Medikamente musste eingenommen werden? (choice=Antidepressiva (gegen Depressionen))
-[03.07.01] Folgen - Was für Medikamente musste eingenommen werden? (choice=Antiepileptika (gegen Epilepsie))
-[03.07.01] Folgen - Was für Medikamente musste eingenommen werden? (choice=Antikoagulanzien (blutgerinnungshemmende Mittel))
-[03.07.01] Folgen - Was für Medikamente musste eingenommen werden? (choice=Antipsychotika (Neuroleptika))
-[03.07.01] Folgen - Was für Medikamente musste eingenommen werden? (choice=Antivirale Medikamente (gegen Virusinfektionen))
-[03.07.01] Folgen - Was für Medikamente musste eingenommen werden? (choice=Weitere)
+[03.04] Folgen -Kam es zu einer deutlichen Verzögerung bei der Umsetzung des medizinischen Therapieprotokolls?'
+[03.05] Folgen - Kam es zu lebensrettenden Interventionen (z. B. Beatmung, Herzdruckmassage)?
+[03.06.01] Folgen -  In welchen Bereichen wurde ein erhöhter Pflegebedarf festgestellt? (choice=Ernährung (bspw. Sondenernährung und spezielle Diäten))
+[03.06.01] Folgen -  In welchen Bereichen wurde ein erhöhter Pflegebedarf festgestellt? (choice=Körperhygiene (bspw.  Unterstützung beim Waschen, Zähneputzen und Ankleiden))
+[03.06.01] Folgen -  In welchen Bereichen wurde ein erhöhter Pflegebedarf festgestellt? (choice=Medizinische Versorgung (bspw. Therapien und Medikamente))
+[03.06.01] Folgen -  In welchen Bereichen wurde ein erhöhter Pflegebedarf festgestellt? (choice=Mobilität (bspw. Unterstützung beim An- und Ausziehen und bei der Fortbewegung (Rollstuhl etc.))
+[03.06.01] Folgen -  In welchen Bereichen wurde ein erhöhter Pflegebedarf festgestellt? (choice=Psychosoziale Unterstützung (Emotionale Unterstützung und Verhaltensinterventionen))
+[03.06.01] Folgen -  In welchen Bereichen wurde ein erhöhter Pflegebedarf festgestellt? (choice=Weitere)
+[03.06.02] Folgen - Über welchen Zeitraum bestand der erhöhte Pflegebedarf?
+[03.06] Folgen - Gab es einen erhöhten Pflegebedarf?
+[03.07.01] Folgen - Welche Medikamente mussten eingenommen werden? (choice=Analgetika (Schmerzmittel))
+[03.07.01] Folgen - Welche Medikamente mussten eingenommen werden? (choice=Antiallergika (gegen Allergien))
+[03.07.01] Folgen - Welche Medikamente mussten eingenommen werden? (choice=Antibiotika (gegen bakterielle Infektionen))
+[03.07.01] Folgen - Welche Medikamente mussten eingenommen werden? (choice=Antidepressiva (gegen Depressionen))
+[03.07.01] Folgen - Welche Medikamente mussten eingenommen werden? (choice=Antiepileptika (gegen Epilepsie))
+[03.07.01] Folgen - Welche Medikamente mussten eingenommen werden? (choice=Antikoagulanzien (blutgerinnungshemmende Mittel))
+[03.07.01] Folgen - Welche Medikamente mussten eingenommen werden? (choice=Antipsychotika (Neuroleptika))
+[03.07.01] Folgen - Welche Medikamente mussten eingenommen werden? (choice=Antivirale Medikamente (gegen Virusinfektionen))
+[03.07.01] Folgen - Welche Medikamente mussten eingenommen werden? (choice=Weitere)
 [03.07.02] Folgen - Wie lange mussten diese Medikamente eingenommen werden?
-[03.07] Konsequenzen - Mussten Medikamenten eingenommen werden?
-[03.08.01] Folgen -  Welche Konsequenzen resultierten aus dem Auftreten von Angst und Unsicherheit? (choice=bei dem Betroffenen selbst)
-[03.08.01] Folgen -  Welche Konsequenzen resultierten aus dem Auftreten von Angst und Unsicherheit? (choice=bei den Eltern des Betroffenen)
-[03.08.01] Folgen -  Welche Konsequenzen resultierten aus dem Auftreten von Angst und Unsicherheit? (choice=bei der Bewegungsfachkraft)
-[03.08.01] Folgen -  Welche Konsequenzen resultierten aus dem Auftreten von Angst und Unsicherheit? (choice=im Behandlungsteam)
-[03.08.01] Folgen -  Welche Konsequenzen resultierten aus dem Auftreten von Angst und Unsicherheit? (choice=mit der Ablehnung weiter sporttherapheutischer Angebote)
-[03.08.02] Folgen - Wie lange beeinflusste Angst und Unsicherheit die Situation?
-[03.08] Folgen - Traten Angst und Unsicherheit auf?
-[03.09.01] Folgen - Wie sah die strukturelle Anpassung aus?
-[03.09.02] Folgen - Über welchen Zeitraum erstreckte sich die strukturelle Anpassung?
-[03.09] Folgen - Kam es zu einer strukturellen Anpassungen?
-[03.10.01] Folgen - Wer hat geprüft?
-[03.10.02] Folgen - Wurde ein OK zum Weitermachen gegeben?
-[03.10] Folgen - Wurde die Situation von jemanden mit Expertise direkt geprüft?
-[03.11.01] Folgen -Welche spezifischen Komponenten der PECH-Regel kamen zur Anwendung? (choice=Compression)
-[03.11.01] Folgen -Welche spezifischen Komponenten der PECH-Regel kamen zur Anwendung? (choice=Eis)
-[03.11.01] Folgen -Welche spezifischen Komponenten der PECH-Regel kamen zur Anwendung? (choice=Hochlagern)
-[03.11.01] Folgen -Welche spezifischen Komponenten der PECH-Regel kamen zur Anwendung? (choice=Pause)
+[03.07] Konsequenzen - Mussten Medikamente eingenommen werden?
+[03.08.01] Folgen -  Bei wem traten Angst und Unsicherheit auf? (choice=Bei dem Betroffenen selbst)
+[03.08.01] Folgen -  Bei wem traten Angst und Unsicherheit auf? (choice=Bei den Eltern des Betroffenen)
+[03.08.01] Folgen -  Bei wem traten Angst und Unsicherheit auf? (choice=Bei der Bewegungsfachkraft)
+[03.08.01] Folgen -  Bei wem traten Angst und Unsicherheit auf? (choice=Beim Behandlungsteam)
+[03.08.01] Folgen -  Bei wem traten Angst und Unsicherheit auf? (choice=Mit der Ablehnung weiterer sporttherapheutischer Angebote)
+[03.08.02] Folgen - Wie lange hatte Angst und Unsicherheit Einfluss?
+[03.08] Folgen - Kam es zu Angst und Unsicherheit?
+[03.09.01] Folgen - Wie gestaltete sich die strukturelle Anpassung?
+[03.09.02] Folgen - Wie lange dauerte die strukturelle Anpassung an?
+[03.09] Folgen -  Kam es zu strukturellen Anpassungen?
+[03.10.01] Folgen - Wer hat die Prüfung durchgeführt?   (choice=Eltern)
+[03.10.01] Folgen - Wer hat die Prüfung durchgeführt?   (choice=Medizin)
+[03.10.01] Folgen - Wer hat die Prüfung durchgeführt?   (choice=Pflege)
+[03.10.01] Folgen - Wer hat die Prüfung durchgeführt?   (choice=Physiotherapie)
+[03.10.01] Folgen - Wer hat die Prüfung durchgeführt?   (choice=Psychosozialer Dienst)
+[03.10.01] Folgen - Wer hat die Prüfung durchgeführt?   (choice=Weitere)
+[03.10.02] Folgen - Wurde die Erlaubnis zum Weitermachen erteilt (unabhängig, ob weitergemacht wurde oder nicht)?
+[03.10] Folgen - Wurde die Situation von einer Person mit entsprechender Expertise direkt geprüft?
+[03.11.01] Folgen -Welche spezifischen Komponenten der PECH-Regel wurden angewendet? (choice=Compression)
+[03.11.01] Folgen -Welche spezifischen Komponenten der PECH-Regel wurden angewendet? (choice=Eis)
+[03.11.01] Folgen -Welche spezifischen Komponenten der PECH-Regel wurden angewendet? (choice=Hochlagern)
+[03.11.01] Folgen -Welche spezifischen Komponenten der PECH-Regel wurden angewendet? (choice=Pause)
 [03.11.02] Folgen - Wie lange wurde die PECH-Regel angewendet?
-[03.11] Folgen - Wurde die PECH-Regel angewendet?
+[03.11] Folgen - Wurde die PECH-Regel zur Behandlung angewendet?
 [03.12.01] Folgen - Wie wurde observiert? (choice=Beobachtung spezifischer Symptome (bspw.  neurologische Beobachtungen))
-[03.12.01] Folgen - Wie wurde observiert? (choice=Dokumentation (sorgfältige  Beobachtungen des Gesundheitszustandes))
+[03.12.01] Folgen - Wie wurde observiert? (choice=Dokumentation (sorgfältige  Beobachtung des Gesundheitszustandes))
 [03.12.01] Folgen - Wie wurde observiert? (choice=Kontinuierliche Überwachung (bspw. Intensivstationen))
 [03.12.01] Folgen - Wie wurde observiert? (choice=Technologische Unterstützung (bspw. Monitoring-Systemen wie EKG))
 [03.12.01] Folgen - Wie wurde observiert? (choice=Vitalzeichenkontrolle (Regelmäßige Messung von Vitalzeichen wie Herzfrequenz, Blutdruck, Atemfrequenz, Körpertemperatur und Sauerstoffsättigung))
@@ -125,31 +130,32 @@ Participant ID
 [03.14.01] Folgen - Wie wurde die Bewegungseinheit angepasst? (choice=Kommunikationsstrategie)
 [03.14.01] Folgen - Wie wurde die Bewegungseinheit angepasst? (choice=Material)
 [03.14.01] Folgen - Wie wurde die Bewegungseinheit angepasst? (choice=Motivationsstrategie)
-[03.14.01] Folgen - Wie wurde die Bewegungseinheit angepasst? (choice=Nutzen der BORG-Skala)
+[03.14.01] Folgen - Wie wurde die Bewegungseinheit angepasst? (choice=Nutzung der BORG-Skala)
 [03.14.01] Folgen - Wie wurde die Bewegungseinheit angepasst? (choice=Räumlichkeit)
 [03.14.01] Folgen - Wie wurde die Bewegungseinheit angepasst? (choice=Weiteres)
 [03.14.01] Folgen - Wie wurde die Bewegungseinheit angepasst? (choice=Übungsauswahl)
-[03.14.02] Folgen - Wie lange wurde die Anpassung vorgenommen? (choice=ab jetzt für alle bewegungseinheiten mit allen Patient*innen)
-[03.14.02] Folgen - Wie lange wurde die Anpassung vorgenommen? (choice=für die gesamte Therapiephase)
-[03.14.02] Folgen - Wie lange wurde die Anpassung vorgenommen? (choice=nur für diese Einheit)
-[03.14] Folgen - Wurde die Bewegungseinheit inhaltlich verändert und angepasst?
-[03.15.01] Folgen - War die gesamte Handlungsweise bei diesem AE rein pädagogischer Natur? (choice=ja)
-[03.15.01] Folgen - War die gesamte Handlungsweise bei diesem AE rein pädagogischer Natur? (choice=nein)
+[03.14.02] Folgen - Wie lange wurde die Anpassung vorgenommen? (choice=Ab jetzt für alle Bewegungseinheiten mit allen Patient*innen)
+[03.14.02] Folgen - Wie lange wurde die Anpassung vorgenommen? (choice=Für die gesamte Therapiephase)
+[03.14.02] Folgen - Wie lange wurde die Anpassung vorgenommen? (choice=Für die nächsten Einheiten (da das AE rückwirkend auftrat))
+[03.14.02] Folgen - Wie lange wurde die Anpassung vorgenommen? (choice=Nur für diese Einheit)
+[03.14] Folgen - Wurde die Bewegungseinheit inhaltlich verändert oder angepasst?
+[03.15.01] Folgen - War die gesamte Handlungsweise bei diesem AE rein pädagogischer Natur? (choice=Ja)
+[03.15.01] Folgen - War die gesamte Handlungsweise bei diesem AE rein pädagogischer Natur? (choice=Nein)
 [03.15.02] Folgen - Wie lange wurde getröstet?
-[03.15] Folgen - Wurde aktiv getröstet?
+[03.15] Folgen - Wurde aktiv als Haupthandlung getröstet?
 [03.16] Folgen - Kam es zum Tod?
-[03.17.01] Welche Einschränkungen in den ADL traten auf? (choice=Liegezeit erhöhte sich)
-[03.17.01] Welche Einschränkungen in den ADL traten auf? (choice=Teilnahme an Programmen wie Kunsttherapie etc. war nicht möglich)
-[03.17.01] Welche Einschränkungen in den ADL traten auf? (choice=Weitere)
+[03.17.01] Welche Einschränkungen der Aktivitäten des täglichen Lebens (ADL) traten auf? (choice=Liegezeit erhöhte sich)
+[03.17.01] Welche Einschränkungen der Aktivitäten des täglichen Lebens (ADL) traten auf? (choice=Teilnahme an Programmen wie Kunsttherapie etc. war nicht möglich)
+[03.17.01] Welche Einschränkungen der Aktivitäten des täglichen Lebens (ADL) traten auf? (choice=Weitere)
 [03.17.02] Folgen - Wie lange?
-[03.17] Folgen - Kam es zu Einschränkungen der ADL?
-[03.18] Folgen - Gibt es weitere relevante Folgen?
-[05.01] Rahmenbedingung - In welcher Therapiephase trat das AE auf?
-[05.02] Rahmenbedingungen - In welcher Gruppengröße fand die Sporteinheit, in der das AE auftrat, statt?
+[03.17] Folgen - Kam es zu Einschränkungen der Aktivitäten des täglichen Lebens (ADL)?
+[03.18]  Folgen - Gibt es noch weitere relevante Folgen?
+[05.01] Rahmenbedingung - In welcher Phase der Therapie trat das AE auf?
+[05.02] Rahmenbedingungen - In welcher Gruppengröße fand die Sporteinheit statt, in der das AE auftrat?
 [05.03] Rahmenbedingungen - Wie alt war der/die Betroffene zum Zeitpunkt des AE?
-[05.04] Rahmenbedingungen - Fand das Sportprogramm-Online statt?
+[05.04] Rahmenbedingungen - Fand das Sportprogramm online statt?
 [05.05] Rahmenbedingungen - Fand das AE im Rahmen einer Sporttestung statt?
-[05.06] Rahmenbedingungen - In welchem Setting ist das AE aufgetreten?
+[05.06] Rahmenbedingungen - In welchem Setting trat das AE auf?
 [05.07] Rahmenbedingungen - Welche motorische Hauptform dominierte die Bewegungseinheit?  (choice=Ausdauer)
 [05.07] Rahmenbedingungen - Welche motorische Hauptform dominierte die Bewegungseinheit?  (choice=Beweglichkeit)
 [05.07] Rahmenbedingungen - Welche motorische Hauptform dominierte die Bewegungseinheit?  (choice=Entspannung)
@@ -163,3 +169,4 @@ Participant ID
 [05.09] Rahmenbedingungen - Welchen Trainingszustand hatte der / die Betroffene zum Zeitpunkt als das AE auftrat? (choice=2 Durchschnittlich)
 [05.09] Rahmenbedingungen - Welchen Trainingszustand hatte der / die Betroffene zum Zeitpunkt als das AE auftrat? (choice=3 Mäßig)
 [05.09] Rahmenbedingungen - Welchen Trainingszustand hatte der / die Betroffene zum Zeitpunkt als das AE auftrat? (choice=4 Weiß nicht)
+[06.01] Freitext - Basics - Genaue Beschreibung zur Entstehung, des Auslösers und zur Art des AE.
