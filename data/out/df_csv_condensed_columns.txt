@@ -134,10 +134,6 @@ Participant ID
 [03.14.01] Folgen - Wie wurde die Bewegungseinheit angepasst? (choice=Räumlichkeit)
 [03.14.01] Folgen - Wie wurde die Bewegungseinheit angepasst? (choice=Weiteres)
 [03.14.01] Folgen - Wie wurde die Bewegungseinheit angepasst? (choice=Übungsauswahl)
-[03.14.02] Folgen - Wie lange wurde die Anpassung vorgenommen? (choice=Ab jetzt für alle Bewegungseinheiten mit allen Patient*innen)
-[03.14.02] Folgen - Wie lange wurde die Anpassung vorgenommen? (choice=Für die gesamte Therapiephase)
-[03.14.02] Folgen - Wie lange wurde die Anpassung vorgenommen? (choice=Für die nächsten Einheiten (da das AE rückwirkend auftrat))
-[03.14.02] Folgen - Wie lange wurde die Anpassung vorgenommen? (choice=Nur für diese Einheit)
 [03.14] Folgen - Wurde die Bewegungseinheit inhaltlich verändert oder angepasst?
 [03.15.01] Folgen - War die gesamte Handlungsweise bei diesem AE rein pädagogischer Natur? (choice=Ja)
 [03.15.01] Folgen - War die gesamte Handlungsweise bei diesem AE rein pädagogischer Natur? (choice=Nein)
