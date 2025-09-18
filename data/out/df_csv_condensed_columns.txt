@@ -165,4 +165,3 @@ Participant ID
 [05.09] Rahmenbedingungen - Welchen Trainingszustand hatte der / die Betroffene zum Zeitpunkt als das AE auftrat? (choice=2 Durchschnittlich)
 [05.09] Rahmenbedingungen - Welchen Trainingszustand hatte der / die Betroffene zum Zeitpunkt als das AE auftrat? (choice=3 Mäßig)
 [05.09] Rahmenbedingungen - Welchen Trainingszustand hatte der / die Betroffene zum Zeitpunkt als das AE auftrat? (choice=4 Weiß nicht)
-[06.01] Freitext - Basics - Genaue Beschreibung zur Entstehung, des Auslösers und zur Art des AE.
