@@ -8,7 +8,7 @@ dependencies = [
     # "pip",
     "pandas",
     "numpy<2",
-    "pandas-plots>=0.15.13",
+    "pandas-plots>=0.18.1",
     "connection-helper",
     "pygwalker",
     # "kaleido",

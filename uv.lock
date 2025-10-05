@@ -1536,7 +1536,7 @@ wheels = [
 
 [[package]]
 name = "pandas-plots"
-version = "0.16.0"
+version = "0.18.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "connection-helper" },
@@ -1545,6 +1545,7 @@ dependencies = [
     { name = "jinja2" },
     { name = "kaleido" },
     { name = "matplotlib" },
+    { name = "matplotlib-inline" },
     { name = "matplotlib-venn" },
     { name = "missingno" },
     { name = "nbformat" },
@@ -1554,9 +1555,9 @@ dependencies = [
     { name = "requests" },
     { name = "seaborn" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f0/5e/39d62aaf787dde116a6e685cdd8e1ddde0c039277c352605eb090457baa4/pandas_plots-0.16.0.tar.gz", hash = "sha256:83fdd956503068f25d64c2d91dd90067b6f665f8f4fab7057d63286b167c9b1b", size = 37836, upload-time = "2025-09-11T21:40:49.334Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/1e/4b/5db0064e277553662d4ac8e4085ab04214e0d5930f9ff3c1f11caf33e601/pandas_plots-0.18.1.tar.gz", hash = "sha256:f83245d85282ab815893960b340387c0ed8f027807440b9c45c3befb975cb620", size = 84221, upload-time = "2025-10-02T16:57:19.022Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/54/6d/83bbffba4db008ec6c2bfa2b702679a22309feae71579d26cfb5900d9521/pandas_plots-0.16.0-py3-none-any.whl", hash = "sha256:e99c918f308c25cc84c680e4d890939c8fc08f85cbbaa614649c2410ff29ad5d", size = 40085, upload-time = "2025-09-11T21:40:47.98Z" },
+    { url = "https://files.pythonhosted.org/packages/b6/18/35d437e9b6dfc42f64adc69fe4f9d64a00a2ad1ce86aeaa7d39c36dcc406/pandas_plots-0.18.1-py3-none-any.whl", hash = "sha256:69561f16265626f4b42398fc99f89a74cf4d1f9b80aa31e1d208ecc1fef8ed50", size = 110642, upload-time = "2025-10-02T16:57:17.386Z" },
 ]
 
 [[package]]
@@ -2459,7 +2460,7 @@ requires-dist = [
     { name = "odfpy", specifier = ">=1.4.1" },
     { name = "openpyxl", specifier = ">=3.1.5" },
     { name = "pandas" },
-    { name = "pandas-plots", specifier = ">=0.15.13" },
+    { name = "pandas-plots", specifier = ">=0.18.1" },
     { name = "pygwalker" },
     { name = "streamlit" },
 ]
