@@ -1,14 +1,17 @@
-# sport-adverse-events
+<!-- # sport-adverse-events -->
 
-## sample analysis
+# Adverse Events in Supervised Pediatric Oncology Exercise: Incidence N=178
 
-<!-- ![alt text](docs/uml/img/test.svg) -->
-![alt text](docs/img/trigger_ctcae.png)
+<!-- ## sample analysis
+
+![alt text](docs/img/trigger_ctcae.png) 
+-->
+
+## preliminary description
+
+[selected data tables and diagrams](./src/docs/3_description.md)
 
 ## online analysis
 
 [🌐 streamlit](https://sport-adverse-events-ig9rkc8kxlnqwdswiqm9wy.streamlit.app)
 
-## tags
-
-#sport, #pandas, #redcap, #python

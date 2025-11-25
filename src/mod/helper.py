@@ -1,5 +1,6 @@
 import re
 import pandas as pd
+from pandas_plots import tbl
 
 def replace_vectorized(df_source, df_target):
     # * Build the column-wise mapping: {col: {val_old: val_new}}
@@ -59,3 +60,38 @@ def replace_substring_vectorized(df_mapping: pd.DataFrame, df_target: pd.DataFra
                 df_result[col] = df_result[col].str.replace(pattern, val_new, regex=True)
 
     return df_result
+
+# # * loop over all selected columns
+def print_survey(df_in: pd.DataFrame, cols: list[str], CTCAE: str) -> None:
+    for col in cols[:]:
+        # * skip CTCAE and columns that are not str
+        if col != CTCAE and df_in[col].dtype.kind in ("O"):
+
+            # * slice
+            df = df_in.copy()
+            df = df[[col, CTCAE]].dropna()
+            # print(col)
+            df.iloc[:,0]= df.iloc[:,0].str.strip()#.str.ljust(70, fillchar=".")
+
+            # * split to create arrays in cells, then explode to have atomic values
+            df[col] = df[col].str.split("|")
+            df = df.explode(col)
+
+            # * to pivot
+            _ =(
+                tbl.pivot_df(
+                    df=df.sort_values(df.columns[-1], ascending=False),
+                    dropna=False,
+                    data_bar_axis="x",
+                    col1_width=600,
+                )
+                # .format(lambda x: f"{x}")
+            )
+            display(_)
+            # display(
+            #     tbl.pivot_df(
+            #         df=df,
+            #         dropna=False,
+            #         data_bar_axis="x",
+            #     )
+            # )
