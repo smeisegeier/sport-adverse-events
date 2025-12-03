@@ -7,11 +7,19 @@
 ![alt text](docs/img/trigger_ctcae.png) 
 -->
 
-## data description
+## 1️⃣ import of raw data
 
-[selected data tables and diagrams](./src/docs/3_description.md)
+[☁️ data from `REDCap`](./data/in/RegisterZurErfassung_DATA_LABELS_2025-08-11_1552.csv)
 
-## online analysis
+## 2️⃣ data transformation
+
+[🐍 python script](./src/docs/1_create.md)
+
+## 3️⃣ data description
+
+[📈 selected data tables and diagrams](./src/docs/3_description.md)
+
+## 4️⃣ online analysis
 
 [🌐 streamlit](https://sport-adverse-events-ig9rkc8kxlnqwdswiqm9wy.streamlit.app)
 
