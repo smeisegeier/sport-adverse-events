@@ -94,7 +94,6 @@ Participant ID
 [03.08.01] Folgen -  Bei wem traten Angst und Unsicherheit auf? (choice=Bei den Eltern des Betroffenen)
 [03.08.01] Folgen -  Bei wem traten Angst und Unsicherheit auf? (choice=Bei der Bewegungsfachkraft)
 [03.08.01] Folgen -  Bei wem traten Angst und Unsicherheit auf? (choice=Beim Behandlungsteam)
-[03.08.01] Folgen -  Bei wem traten Angst und Unsicherheit auf? (choice=Mit der Ablehnung weiterer sporttherapheutischer Angebote)
 [03.08.02] Folgen - Wie lange hatte Angst und Unsicherheit Einfluss?
 [03.08] Folgen - Kam es zu Angst und Unsicherheit?
 [03.09.01] Folgen - Wie gestaltete sich die strukturelle Anpassung?

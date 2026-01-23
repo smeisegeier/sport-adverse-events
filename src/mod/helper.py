@@ -1,6 +1,8 @@
 import re
 import pandas as pd
-from pandas_plots import tbl
+from pandas_plots import tbl, hlp
+
+# import IPython.display as display
 
 def replace_vectorized(df_source, df_target):
     # * Build the column-wise mapping: {col: {val_old: val_new}}
@@ -62,7 +64,7 @@ def replace_substring_vectorized(df_mapping: pd.DataFrame, df_target: pd.DataFra
     return df_result
 
 # # * loop over all selected columns
-def print_survey(df_in: pd.DataFrame, cols: list[str], CTCAE: str) -> None:
+def print_survey(df_in: pd.DataFrame, cols: list[str], CTCAE: str, explode: bool=True) -> None:
     for col in cols[:]:
         # * skip CTCAE and columns that are not str
         if col != CTCAE and df_in[col].dtype.kind in ("O"):
@@ -71,11 +73,14 @@ def print_survey(df_in: pd.DataFrame, cols: list[str], CTCAE: str) -> None:
             df = df_in.copy()
             df = df[[col, CTCAE]].dropna()
             # print(col)
+            
+            # * strip leading and trailing spaces
             df.iloc[:,0]= df.iloc[:,0].str.strip()#.str.ljust(70, fillchar=".")
 
-            # * split to create arrays in cells, then explode to have atomic values
-            df[col] = df[col].str.split("|")
-            df = df.explode(col)
+            if explode:
+                # * split to create arrays in cells, then explode to have atomic values
+                df[col] = df[col].str.split("|")
+                df = df.explode(col)
 
             # * to pivot
             _ =(
