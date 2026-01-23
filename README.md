@@ -13,13 +13,12 @@
 
 ## 2️⃣ data transformation
 
-[🐍 python script](./src/docs/1_create.md)
+[🐍 python script](./docs/1_create.md)
 
 ## 3️⃣ data description
 
-[📈 selected data tables and diagrams](./src/docs/3_description.md)
+[📈 selected data tables and diagrams](./docs/3_description.md)
 
 ## 4️⃣ online analysis
 
 [🌐 streamlit](https://sport-adverse-events-ig9rkc8kxlnqwdswiqm9wy.streamlit.app)
-
