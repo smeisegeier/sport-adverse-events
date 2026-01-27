@@ -11,17 +11,19 @@
     - [set date column](#toc1_3_2_)    
     - [relabeling duplicate columns](#toc1_3_3_)    
     - [remove duplicates or invalids](#toc1_3_4_)    
-    - [parse dates to datetime 🕥](#toc1_3_5_)    
-    - [(deprecated) remove columns w/ no or few values](#toc1_3_6_)    
-  - [condensed dataset](#toc1_4_)    
-    - [define functions](#toc1_4_1_)    
-    - [define single, multi and misc columns](#toc1_4_2_)    
-    - [concat condensed dataset from subsets](#toc1_4_3_)    
-    - [create manual table for mapping](#toc1_4_4_)    
-    - [column mapping from codebook](#toc1_4_5_)    
-    - [value mapping for missings and unknown](#toc1_4_6_)    
-    - [value mapping from codebook](#toc1_4_7_)    
-  - [💾 data for pivot use](#toc1_5_)    
+  - [override columns](#toc1_4_)    
+    - [parse dates to datetime 🕥](#toc1_4_1_)    
+    - [(deprecated) remove columns w/ no or few values](#toc1_4_2_)    
+  - [condensed dataset](#toc1_5_)    
+    - [define functions](#toc1_5_1_)    
+    - [define single, multi and misc columns](#toc1_5_2_)    
+    - [concat condensed dataset from subsets](#toc1_5_3_)    
+    - [create manual table for mapping](#toc1_5_4_)    
+    - [column mapping from codebook](#toc1_5_5_)    
+    - [value mapping for missings and unknown](#toc1_5_6_)    
+    - [value mapping from codebook](#toc1_5_7_)    
+    - [reduce columns](#toc1_5_8_)    
+  - [💾 data for pivot use](#toc1_6_)    
 
 <!-- vscode-jupyter-toc-config
 	numbering=false
@@ -64,17 +66,19 @@
 
 ### <a id='toc1_3_4_'></a>[remove duplicates or invalids](#toc0_)
 
-### <a id='toc1_3_5_'></a>[parse dates to datetime 🕥](#toc0_)
+## <a id='toc1_4_'></a>[override columns](#toc0_)
 
-### <a id='toc1_3_6_'></a>[(deprecated) remove columns w/ no or few values](#toc0_)
+### <a id='toc1_4_1_'></a>[parse dates to datetime 🕥](#toc0_)
+
+### <a id='toc1_4_2_'></a>[(deprecated) remove columns w/ no or few values](#toc0_)
 
 
     
-![png](1_create_files/output_23_0.png)
+![png](1_create_files/output_25_0.png)
     
 
 
-## <a id='toc1_4_'></a>[condensed dataset](#toc0_)
+## <a id='toc1_5_'></a>[condensed dataset](#toc0_)
 - take the cleansed (but structurally unchanged) dataset `df_csv` as a starting point
 - define handling for column subsets according to column types
   - **single choice** - only 1 value is allowed per row
@@ -84,28 +88,20 @@
 - apply value mapping for missings and unknown value
 - apply value mapping from manual table `codebook_values.xlsx`
 
-### <a id='toc1_4_1_'></a>[define functions](#toc0_)
+### <a id='toc1_5_1_'></a>[define functions](#toc0_)
 
-### <a id='toc1_4_2_'></a>[define single, multi and misc columns](#toc0_)
+### <a id='toc1_5_2_'></a>[define single, multi and misc columns](#toc0_)
 
-    ['[03.01.02] Folgen - Wie lange dauerten die Schmerzen an? (choice=Schmerzen am gleichen Tag)', '[03.01.02] Folgen - Wie lange dauerten die Schmerzen an? (choice=Schmerzen bis zum Folgetag)', '[03.01.02] Folgen - Wie lange dauerten die Schmerzen an? (choice=Schmerzen, die mindestens 3 Tage anhielten)', '[03.01.02] Folgen - Wie lange dauerten die Schmerzen an? (choice=Weiß nicht)']
     ['[03.10] Folgen - Wurde die Situation von einer Person mit entsprechender Expertise direkt geprüft?']
+    ['[03.01.02] Folgen - Wie lange dauerten die Schmerzen an? (choice=Schmerzen am gleichen Tag)', '[03.01.02] Folgen - Wie lange dauerten die Schmerzen an? (choice=Schmerzen bis zum Folgetag)', '[03.01.02] Folgen - Wie lange dauerten die Schmerzen an? (choice=Schmerzen, die mindestens 3 Tage anhielten)', '[03.01.02] Folgen - Wie lange dauerten die Schmerzen an? (choice=Weiß nicht)']
     ['[03.15.01] Folgen - War die gesamte Handlungsweise bei diesem AE rein pädagogischer Natur? (choice=Ja)', '[03.15.01] Folgen - War die gesamte Handlungsweise bei diesem AE rein pädagogischer Natur? (choice=Nein)']
 
 
 
     
-![png](1_create_files/output_30_1.png)
+![png](1_create_files/output_32_1.png)
     
 
-
-
-    
-![png](1_create_files/output_31_0.png)
-    
-
-
-### <a id='toc1_4_3_'></a>[concat condensed dataset from subsets](#toc0_)
 
 
     
@@ -113,16 +109,24 @@
     
 
 
-### <a id='toc1_4_4_'></a>[create manual table for mapping](#toc0_)
+### <a id='toc1_5_3_'></a>[concat condensed dataset from subsets](#toc0_)
 
-### <a id='toc1_4_5_'></a>[column mapping from codebook](#toc0_)
+
+    
+![png](1_create_files/output_35_0.png)
+    
+
+
+### <a id='toc1_5_4_'></a>[create manual table for mapping](#toc0_)
+
+### <a id='toc1_5_5_'></a>[column mapping from codebook](#toc0_)
 - in `codebook_columns.xlsx`
   - col names in `col_clean` (full label) -> `col_final`
   - col names in `col_code` (code only) -> `col_new`
 
 
     
-![png](1_create_files/output_37_0.png)
+![png](1_create_files/output_39_0.png)
     
 
 
@@ -167,11 +171,11 @@
 
 
     
-![png](1_create_files/output_39_1.png)
+![png](1_create_files/output_41_1.png)
     
 
 
-### <a id='toc1_4_6_'></a>[value mapping for missings and unknown](#toc0_)
+### <a id='toc1_5_6_'></a>[value mapping for missings and unknown](#toc0_)
 
     in [02.04] Affected body parts: - -> <NA>
     in [03.02] With hospitalization: weiß nicht -> (Unknown)
@@ -187,16 +191,16 @@
     in [03.08.01] Affected person: - -> <NA>
 
 
-### <a id='toc1_4_7_'></a>[value mapping from codebook](#toc0_)
+### <a id='toc1_5_7_'></a>[value mapping from codebook](#toc0_)
 - in `codebook_values.xlsx`
   - col codes in `code`
   - old value in `de` -> new value in `en`
 
-### reduce columns
+### <a id='toc1_5_8_'></a>[reduce columns](#toc0_)
 
 
     
-![png](1_create_files/output_49_0.png)
+![png](1_create_files/output_51_0.png)
     
 
 
@@ -227,7 +231,7 @@
 
 
 
-## <a id='toc1_5_'></a>[💾 data for pivot use](#toc0_)
+## <a id='toc1_6_'></a>[💾 data for pivot use](#toc0_)
 
     🔵 *** df: df_csv_condensed ***  
     🟣 shape: (178, 36)
@@ -263,7 +267,7 @@
     - [03.13.01] Temporary suspension of session (object | 3 | 0 (0%)) ['Suspension of session', 'Termination of session', 'nan',]  
     - [03.13] Suspension and termination of session (object | 2 | 0 (0%)) ['No', 'Yes',]  
     - [03.14.01] Adaptations intensity (object | 9 | 0 (0%)) ['<NA>', 'Communication strategy', 'Equipment', 'Exercise selection', 'Exercise selection|Equipment',]  
-    - [03.14] Adaptation (object | 3 | 107 (60%)) ['<NA>', 'No', 'Yes',]  
+    - [03.14] Adaptation (object | 2 | 0 (0%)) ['No', 'Yes',]  
     - [03.16] Death (object | 1 | 0 (0%)) ['No',]  
     - [05.01] Therapy phase (object | 3 | 0 (0%)) ['Acute therapy', 'Long-term therapy', 'Post-treatment care',]  
     - [05.02] Group size (object | 5 | 0 (0%)) ['Group 2-5', 'Group 5 to 10', 'Group over 10', 'Individual', 'nan',]  
@@ -286,7 +290,7 @@
 
 
     
-![png](1_create_files/output_53_1.png)
+![png](1_create_files/output_55_1.png)
     
 
 

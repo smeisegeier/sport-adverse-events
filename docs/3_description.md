@@ -4,9 +4,10 @@
 - [descriptive analysis](#toc1_)    
   - [import data](#toc1_1_)    
   - [tables](#toc1_2_)    
-  - [unexploded](#toc1_3_)    
-  - [bar charts](#toc1_4_)    
-  - [dataset](#toc1_5_)    
+    - [exploded](#toc1_2_1_)    
+    - [unexploded](#toc1_2_2_)    
+  - [bar charts](#toc1_3_)    
+  - [dataset](#toc1_4_)    
 
 <!-- vscode-jupyter-toc-config
 	numbering=false
@@ -19,257 +20,259 @@
 
 ## <a id='toc1_1_'></a>[import data](#toc0_)
 
-    🐍 3.12.8 | 📦 pygwalker: 0.5.0.0 | 📦 pandas: 2.3.3 | 📦 numpy: 1.26.4 | 📦 duckdb: 1.4.3 | 📦 pandas-plots: 1.1.1 | 📦 connection-helper: 0.13.2
+    🐍 3.12.8 | 📦 pygwalker: 0.5.0.0 | 📦 pandas: 2.3.3 | 📦 numpy: 1.26.4 | 📦 duckdb: 1.4.4 | 📦 pandas-plots: 1.2.2 | 📦 connection-helper: 0.13.2
 
 
 ## <a id='toc1_2_'></a>[tables](#toc0_)
 
-
-    
-![png](3_description_files/output_10_0.png)
-    
-
+### <a id='toc1_2_1_'></a>[exploded](#toc0_)
 
 
     
-![png](3_description_files/output_10_1.png)
+![png](3_description_files/output_11_0.png)
     
 
 
 
     
-![png](3_description_files/output_10_2.png)
+![png](3_description_files/output_11_1.png)
     
 
 
 
     
-![png](3_description_files/output_10_3.png)
+![png](3_description_files/output_11_2.png)
     
 
 
 
     
-![png](3_description_files/output_10_4.png)
+![png](3_description_files/output_11_3.png)
     
 
 
 
     
-![png](3_description_files/output_10_5.png)
+![png](3_description_files/output_11_4.png)
     
 
 
 
     
-![png](3_description_files/output_10_6.png)
+![png](3_description_files/output_11_5.png)
     
 
 
 
     
-![png](3_description_files/output_10_7.png)
+![png](3_description_files/output_11_6.png)
     
 
 
 
     
-![png](3_description_files/output_10_8.png)
+![png](3_description_files/output_11_7.png)
     
 
 
 
     
-![png](3_description_files/output_10_9.png)
+![png](3_description_files/output_11_8.png)
     
 
 
 
     
-![png](3_description_files/output_10_10.png)
+![png](3_description_files/output_11_9.png)
     
 
 
 
     
-![png](3_description_files/output_10_11.png)
+![png](3_description_files/output_11_10.png)
     
 
 
 
     
-![png](3_description_files/output_10_12.png)
+![png](3_description_files/output_11_11.png)
     
 
 
 
     
-![png](3_description_files/output_10_13.png)
+![png](3_description_files/output_11_12.png)
     
 
 
 
     
-![png](3_description_files/output_10_14.png)
+![png](3_description_files/output_11_13.png)
     
 
 
 
     
-![png](3_description_files/output_10_15.png)
+![png](3_description_files/output_11_14.png)
     
 
 
 
     
-![png](3_description_files/output_10_16.png)
+![png](3_description_files/output_11_15.png)
     
 
 
 
     
-![png](3_description_files/output_10_17.png)
+![png](3_description_files/output_11_16.png)
     
 
 
 
     
-![png](3_description_files/output_10_18.png)
+![png](3_description_files/output_11_17.png)
     
 
 
 
     
-![png](3_description_files/output_10_19.png)
+![png](3_description_files/output_11_18.png)
     
 
 
 
     
-![png](3_description_files/output_10_20.png)
+![png](3_description_files/output_11_19.png)
     
 
 
 
     
-![png](3_description_files/output_10_21.png)
+![png](3_description_files/output_11_20.png)
     
 
 
 
     
-![png](3_description_files/output_10_22.png)
+![png](3_description_files/output_11_21.png)
     
 
 
 
     
-![png](3_description_files/output_10_23.png)
+![png](3_description_files/output_11_22.png)
     
 
 
 
     
-![png](3_description_files/output_10_24.png)
+![png](3_description_files/output_11_23.png)
     
 
 
 
     
-![png](3_description_files/output_10_25.png)
+![png](3_description_files/output_11_24.png)
     
 
 
 
     
-![png](3_description_files/output_10_26.png)
+![png](3_description_files/output_11_25.png)
     
 
 
 
     
-![png](3_description_files/output_10_27.png)
+![png](3_description_files/output_11_26.png)
     
 
 
-## <a id='toc1_3_'></a>[unexploded](#toc0_)
+
+    
+![png](3_description_files/output_11_27.png)
+    
+
+
+### <a id='toc1_2_2_'></a>[unexploded](#toc0_)
 - items are not summarized, but seperated by `|`
 
 
     
-![png](3_description_files/output_13_0.png)
+![png](3_description_files/output_14_0.png)
     
 
 
 
     
-![png](3_description_files/output_13_1.png)
+![png](3_description_files/output_14_1.png)
     
 
 
 
     
-![png](3_description_files/output_13_2.png)
+![png](3_description_files/output_14_2.png)
     
 
 
 
     
-![png](3_description_files/output_13_3.png)
+![png](3_description_files/output_14_3.png)
     
 
 
 
     
-![png](3_description_files/output_13_4.png)
+![png](3_description_files/output_14_4.png)
     
 
 
-## <a id='toc1_4_'></a>[bar charts](#toc0_)
+## <a id='toc1_3_'></a>[bar charts](#toc0_)
 
 
     
-![svg](3_description_files/output_15_0.svg)
-    
-
-
-
-    
-![svg](3_description_files/output_15_1.svg)
+![svg](3_description_files/output_16_0.svg)
     
 
 
 
     
-![svg](3_description_files/output_15_2.svg)
+![svg](3_description_files/output_16_1.svg)
     
 
 
 
     
-![svg](3_description_files/output_15_3.svg)
+![svg](3_description_files/output_16_2.svg)
     
 
 
 
     
-![svg](3_description_files/output_15_4.svg)
+![svg](3_description_files/output_16_3.svg)
     
 
 
 
     
-![svg](3_description_files/output_15_5.svg)
+![svg](3_description_files/output_16_4.svg)
     
 
 
 
     
-![svg](3_description_files/output_15_6.svg)
+![svg](3_description_files/output_16_5.svg)
     
 
 
-## <a id='toc1_5_'></a>[dataset](#toc0_)
+
+    
+![svg](3_description_files/output_16_6.svg)
+    
+
+
+## <a id='toc1_4_'></a>[dataset](#toc0_)
 
     🔵 *** df: df_csv_condensed ***  
     🟣 shape: (178, 36)
@@ -304,7 +307,7 @@
     - [03.13.01] Temporary suspension of session (object | 3 | 16 (9%)) ['<NA>', 'Suspension of session', 'Termination of session',]  
     - [03.13] Suspension and termination of session (object | 2 | 0 (0%)) ['No', 'Yes',]  
     - [03.14.01] Adaptations intensity (object | 9 | 138 (78%)) ['<NA>', 'Communication strategy', 'Equipment', 'Exercise selection', 'Exercise selection|Equipment',]  
-    - [03.14] Adaptation (object | 3 | 107 (60%)) ['<NA>', 'No', 'Yes',]  
+    - [03.14] Adaptation (object | 2 | 0 (0%)) ['No', 'Yes',]  
     - [03.16] Death (object | 1 | 0 (0%)) ['No',]  
     - [05.01] Therapy phase (object | 3 | 0 (0%)) ['Acute therapy', 'Long-term therapy', 'Post-treatment care',]  
     - [05.02] Group size (object | 5 | 4 (2%)) ['<NA>', 'Group 2-5', 'Group 5 to 10', 'Group over 10', 'Individual',]  
@@ -324,16 +327,30 @@
     [00.00] ParticipantID                            | 178 (100%) |   3 |     3 | 51.250 | 111.500 | 105.500 | 156.750 |   213 | 213 | 60.527 | 0.574
     [03.10] Assessment of the situation by expertise |     0 (0%) | N/A |   N/A |    N/A |     N/A |     N/A |     N/A |   N/A | N/A |    N/A |   N/A
     
-
-
-
     
-![png](3_description_files/output_17_1.png)
-    
+    🟠 sample 3 rows  
 
 
 
-    
-![svg](3_description_files/output_17_2.svg)
+
+```python
+
+```
+
+
+```python
+    ┌──────────────────────┬──────────────────────┬──────────────────────┬───┬────────────────────┬──────────────────────┐
+    │ [00.00] Participan…  │ [01.01] CTCAE clas…  │     [01.02] Date     │ … │ [05.08] Time point │ [05.09] Fitness le…  │
+    │        int64         │       varchar        │       varchar        │   │      varchar       │       varchar        │
+    ├──────────────────────┼──────────────────────┼──────────────────────┼───┼────────────────────┼──────────────────────┤
+    │                    3 │ 2                    │ Pre-existing, aggr…  │ … │ Second Half        │ Average              │
+    │                    4 │ 1                    │ New onset            │ … │ First Half         │ Good                 │
+    │                    5 │ 2                    │ Pre-existing, aggr…  │ … │ Second Half        │ Moderate             │
+    ├──────────────────────┴──────────────────────┴──────────────────────┴───┴────────────────────┴──────────────────────┤
+    │ 3 rows                                                                                        36 columns (5 shown) │
+    └────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+```
+
+![svg](3_description_files/output_18_4.svg)
     
 
