@@ -2,12 +2,11 @@
 
 **Table of contents**<a id='toc0_'></a>    
 - [descriptive analysis](#toc1_)    
-  - [import data](#toc1_1_)    
-  - [tables](#toc1_2_)    
-    - [exploded](#toc1_2_1_)    
-    - [unexploded](#toc1_2_2_)    
-  - [bar charts](#toc1_3_)    
-  - [dataset](#toc1_4_)    
+  - [tables](#toc1_1_)    
+    - [exploded](#toc1_1_1_)    
+    - [unexploded](#toc1_1_2_)    
+  - [multiple choice](#toc1_2_)    
+  - [dataset](#toc1_3_)    
 
 <!-- vscode-jupyter-toc-config
 	numbering=false
@@ -18,261 +17,271 @@
 	/vscode-jupyter-toc-config -->
 <!-- THIS CELL WILL BE REPLACED ON TOC UPDATE. DO NOT WRITE YOUR TEXT IN THIS CELL -->
 
-## <a id='toc1_1_'></a>[import data](#toc0_)
-
-    🐍 3.12.8 | 📦 pygwalker: 0.5.0.0 | 📦 pandas: 2.3.3 | 📦 numpy: 1.26.4 | 📦 duckdb: 1.4.4 | 📦 pandas-plots: 1.2.2 | 📦 connection-helper: 0.13.2
+    🐍 3.12.8 | 📦 pygwalker: 0.5.0.0 | 📦 pandas: 2.3.3 | 📦 numpy: 1.26.4 | 📦 duckdb: 1.4.3 | 📦 pandas-plots: 1.2.2 | 📦 connection-helper: 0.13.3
 
 
-## <a id='toc1_2_'></a>[tables](#toc0_)
+## <a id='toc1_1_'></a>[tables](#toc0_)
 
-### <a id='toc1_2_1_'></a>[exploded](#toc0_)
+### <a id='toc1_1_1_'></a>[exploded](#toc0_)
 
 
     
-![png](3_description_files/output_11_0.png)
+![png](3_description_files/output_10_0.png)
     
 
 
 
     
-![png](3_description_files/output_11_1.png)
+![png](3_description_files/output_10_1.png)
     
 
 
 
     
-![png](3_description_files/output_11_2.png)
+![png](3_description_files/output_10_2.png)
     
 
 
 
     
-![png](3_description_files/output_11_3.png)
+![png](3_description_files/output_10_3.png)
     
 
 
 
     
-![png](3_description_files/output_11_4.png)
+![png](3_description_files/output_10_4.png)
     
 
 
 
     
-![png](3_description_files/output_11_5.png)
+![png](3_description_files/output_10_5.png)
     
 
 
 
     
-![png](3_description_files/output_11_6.png)
+![png](3_description_files/output_10_6.png)
     
 
 
 
     
-![png](3_description_files/output_11_7.png)
+![png](3_description_files/output_10_7.png)
     
 
 
 
     
-![png](3_description_files/output_11_8.png)
+![png](3_description_files/output_10_8.png)
     
 
 
 
     
-![png](3_description_files/output_11_9.png)
+![png](3_description_files/output_10_9.png)
     
 
 
 
     
-![png](3_description_files/output_11_10.png)
+![png](3_description_files/output_10_10.png)
     
 
 
 
     
-![png](3_description_files/output_11_11.png)
+![png](3_description_files/output_10_11.png)
     
 
 
 
     
-![png](3_description_files/output_11_12.png)
+![png](3_description_files/output_10_12.png)
     
 
 
 
     
-![png](3_description_files/output_11_13.png)
+![png](3_description_files/output_10_13.png)
     
 
 
 
     
-![png](3_description_files/output_11_14.png)
+![png](3_description_files/output_10_14.png)
     
 
 
 
     
-![png](3_description_files/output_11_15.png)
+![png](3_description_files/output_10_15.png)
     
 
 
 
     
-![png](3_description_files/output_11_16.png)
+![png](3_description_files/output_10_16.png)
     
 
 
 
     
-![png](3_description_files/output_11_17.png)
+![png](3_description_files/output_10_17.png)
     
 
 
 
     
-![png](3_description_files/output_11_18.png)
+![png](3_description_files/output_10_18.png)
     
 
 
 
     
-![png](3_description_files/output_11_19.png)
+![png](3_description_files/output_10_19.png)
     
 
 
 
     
-![png](3_description_files/output_11_20.png)
+![png](3_description_files/output_10_20.png)
     
 
 
 
     
-![png](3_description_files/output_11_21.png)
+![png](3_description_files/output_10_21.png)
     
 
 
 
     
-![png](3_description_files/output_11_22.png)
+![png](3_description_files/output_10_22.png)
     
 
 
 
     
-![png](3_description_files/output_11_23.png)
+![png](3_description_files/output_10_23.png)
     
 
 
 
     
-![png](3_description_files/output_11_24.png)
+![png](3_description_files/output_10_24.png)
     
 
 
 
     
-![png](3_description_files/output_11_25.png)
+![png](3_description_files/output_10_25.png)
     
 
 
 
     
-![png](3_description_files/output_11_26.png)
+![png](3_description_files/output_10_26.png)
     
 
 
 
     
-![png](3_description_files/output_11_27.png)
+![png](3_description_files/output_10_27.png)
     
 
 
-### <a id='toc1_2_2_'></a>[unexploded](#toc0_)
+### <a id='toc1_1_2_'></a>[unexploded](#toc0_)
 - items are not summarized, but seperated by `|`
 
 
     
-![png](3_description_files/output_14_0.png)
+![png](3_description_files/output_13_0.png)
     
 
 
 
     
-![png](3_description_files/output_14_1.png)
+![png](3_description_files/output_13_1.png)
     
 
 
 
     
-![png](3_description_files/output_14_2.png)
+![png](3_description_files/output_13_2.png)
     
 
 
 
     
-![png](3_description_files/output_14_3.png)
+![png](3_description_files/output_13_3.png)
     
 
 
 
     
-![png](3_description_files/output_14_4.png)
+![png](3_description_files/output_13_4.png)
     
 
 
-## <a id='toc1_3_'></a>[bar charts](#toc0_)
+## <a id='toc1_2_'></a>[multiple choice](#toc0_)
 
-
-    
-![svg](3_description_files/output_16_0.svg)
-    
+    n = 178 | n(true) = 178
 
 
 
     
-![svg](3_description_files/output_16_1.svg)
+![png](3_description_files/output_15_1.png)
     
 
 
-
-    
-![svg](3_description_files/output_16_2.svg)
-    
+    n = 178 | n(true) = 178
 
 
 
     
-![svg](3_description_files/output_16_3.svg)
+![png](3_description_files/output_16_1.png)
     
 
 
-
-    
-![svg](3_description_files/output_16_4.svg)
-    
+    n = 178 | n(true) = 177
 
 
 
     
-![svg](3_description_files/output_16_5.svg)
+![png](3_description_files/output_17_1.png)
     
 
 
+    n = 178 | n(true) = 56
+
+
 
     
-![svg](3_description_files/output_16_6.svg)
+![png](3_description_files/output_18_1.png)
     
 
 
-## <a id='toc1_4_'></a>[dataset](#toc0_)
+    n = 178 | n(true) = 40
+
+
+
+    
+![png](3_description_files/output_19_1.png)
+    
+
+
+    n = 178 | n(true) = 165
+
+
+
+    
+![png](3_description_files/output_20_1.png)
+    
+
+
+## <a id='toc1_3_'></a>[💾 dataset](#toc0_)
 
     🔵 *** df: df_csv_condensed ***  
     🟣 shape: (178, 36)
@@ -314,7 +323,7 @@
     - [05.03] Age (object | 6 | 45 (25%)) ['02 to 05 years', '06 to 09 years', '10 to 14 years', '15 to 18 years', '18+ years',]  
     - [05.04] Home (telemedicine) (object | 3 | 1 (1%)) ['<NA>', 'No', 'Yes',]  
     - [05.05] As part of testing (object | 3 | 1 (1%)) ['<NA>', 'No', 'Yes',]  
-    - [05.06] Setting (object | 6 | 16 (9%)) ['<NA>', 'At home (via telemedicine)', 'Exercise room', 'Hospital corridor',  
+    - [05.06] Location (object | 6 | 16 (9%)) ['<NA>', 'At home (via telemedicine)', 'Exercise room', 'Hospital corridor',  
     'Outdoors',]  
     - [05.07] Main motor skill (object | 16 | 13 (7%)) ['<NA>', 'Coordination', 'Coordination|Speed', 'Coordination|Strength', 'Endurance',]  
     - [05.08] Time point (object | 3 | 47 (26%)) ['<NA>', 'First Half', 'Second Half',]  
@@ -351,6 +360,6 @@
     └────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
-![svg](3_description_files/output_18_4.svg)
+![svg](3_description_files/output_23_4.svg)
     
 
